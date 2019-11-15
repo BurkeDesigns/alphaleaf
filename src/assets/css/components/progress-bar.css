@@ -1,0 +1,50 @@
+/*----- Indeterminate Progress Bar -----*/
+[el ~="indeterminate-progress"] {
+    --width: 100%;
+    --height: 3px;
+    --bg-color: var(--color-13);
+    --hover-bg-color: var(--color-13);
+    --pressed-bg-color: var(--color-13);
+    top: 0;
+    left: 0;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+[el ~="indeterminate-progress"]:before,
+[el ~="indeterminate-progress"]:after {
+    content: '';
+    position: absolute;
+    background: var(--color-rain);
+    /*--- #4a8df8 --*/
+    height: 100%;
+    animation: increase 3.5s infinite;
+}
+
+[el ~="indeterminate-progress"]:after {
+    animation: decrease 3.5s 1s infinite;
+}
+
+@keyframes increase {
+    from {
+        left: -5%;
+        width: 5%;
+    }
+
+    to {
+        left: 130%;
+        width: 100%;
+    }
+}
+
+@keyframes decrease {
+    from {
+        left: -80%;
+        width: 80%;
+    }
+
+    to {
+        left: 110%;
+        width: 10%;
+    }
+}

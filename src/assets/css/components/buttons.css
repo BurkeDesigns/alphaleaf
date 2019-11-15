@@ -1,0 +1,95 @@
+/*----- Buttons -----*/
+[el ~='btn'],
+[el|='btn'] {
+    --height: 48px;
+    --width: inherit;
+    --display: inline-flex;
+    --padding: 0 27px;
+    --border-radius: 6px;
+
+    --bg-color: var(--control-color, var(--color-sky));
+    --hover-bg-color: var(--control-hover-color, var(--color-rain));
+    --pressed-bg-color: var(--control-pressed-color, var(--color-sea));
+    --disabled-bg-color: var(--color-13);
+
+    --color: #fff;
+    --disabled-color: var(--color-65);
+
+    --text-transform: Capitalize;
+    --transition: 0.2s;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+[el|='btn'][el*='2ry'] {
+    --color: var(--control-color, var(--color-sky));
+    --hover-color: var(--control-hover-color, var(--color-rain));
+    --pressed-color: var(--control-pressed-color, var(--color-sea));
+    --disabled-color: var(--color-25);
+
+    --bg-color: transparent;
+    --hover-bg-color: transparent;
+    --pressed-bg-color: transparent;
+    --disabled-bg-color: transparent;
+
+    --border: 1px solid var(--control-color, var(--color-sky));
+    --hover-border: 1px solid var(--control-hover-color, var(--color-rain));
+    --pressed-border: 1px solid var(--control-pressed-color, var(--color-sea));
+    --disabled-border: 1px solid var(--color-13);
+}
+
+[el|='btn'][el*='p1'] {
+    --control-color: var(--color-sea);
+    --control-hover-color: var(--color-mist);
+    --control-pressed-color: var(--color-ocean);
+}
+
+[el|='btn'][el*='p2'] {
+    --control-color: var(--color-mist);
+    --control-hover-color: #2864A2;
+    --control-pressed-color: var(--color-sea);
+}
+
+/*--- Float Buttons ---*/
+[el ~='flat-btn'],
+[el|='flat-btn'] {
+    --height: 35px;
+    --width: inherit;
+    --display: inline-flex;
+    --padding: 0 10px;
+    --color: var(--control-color, var(--color-sky));
+    --hover-color: var(--control-hover-color, var(--color-rain));
+    --pressed-color: var(--control-pressed-color, var(--color-sea));
+    --disabled-color: var(--color-25);
+
+    --bg-color: transparent;
+    --hover-bg-color: transparent;
+    --pressed-bg-color: transparent;
+    --disabled-bg-color: transparent;
+
+    --border: unset;
+    --hover-border: unset;
+    --pressed-border: unset;
+    --disabled-border: unset;
+
+    --transition: 0.2s;
+
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+[el*='flat-btn'] > *:not(:last-child) {
+    margin-right: 5px;
+}
+
+[el*='flat-btn'][el*='2ry'] {
+    --control-color: var(--color-65);
+    --control-hover-color: var(--color-sky);
+    --control-pressed-color: var(--color-rain);
+}

@@ -1,0 +1,10 @@
+/*----- Core Styles -----*/
+@import './core.css';
+@import './components/layout.css'; /*--- Layout Elements: header, section, containers (lists), footer, main ---*/
+
+/*----- Component/Element Styles -----*/
+@import './components/text.css';
+@import './components/buttons.css';
+@import './components/inputs.css'; /*--- Forms Elements: inputs, dropdowns, checkbox, radio, etc... ---*/
+@import './components/links.css';
+@import './components/progress-bar.css';

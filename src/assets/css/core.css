@@ -1,0 +1,203 @@
+/*---------------------
+
+CSS Design Standard
+Version: v0.1-alpha
+Author(s): Wesley Burke
+Updated: 11/14/2019
+
+---------------------*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+/*----- Design Standard Variables ------*/
+:root {
+    --color-ocean: #002038;
+    --color-sea: #003c78;
+    --color-mist: #4876b7;
+    --color-rain: #0056c9;
+    --color-sky: #0068ff;
+    --color-cloud: #3c8bfd;
+    --color-frost: #03dac6;
+    --color-aurora: #6200ee;
+    --color-storm: #018786;
+    --color-earth: #4e973e;
+    --color-forest: #41a92a;
+    --color-dusk: #e31c3d;
+    --color-moon: #fd9509;
+    --color-sunset: #ff297d;
+    --color-earth-5: rgba(78, 151, 62, 0.05);
+    --color-rain-5: rgba(0, 86, 201, 0.05);
+    --color-black: #000000;
+    --color-65: rgba(0, 0, 0, 0.65);
+    --color-40: rgba(0, 0, 0, 0.4);
+    --color-25: rgba(0, 0, 0, 0.25);
+    --color-13: rgba(0, 0, 0, 0.13);
+    --color-3: rgba(128, 128, 128, 0.05);
+    --color-white: #ffffff;
+}
+
+/*----- Other Default Styles  -----*/
+::-webkit-input-placeholder,
+/* Edge */
+:-ms-input-placeholder,
+/* Internet Explorer 10-11 */
+::placeholder {
+    color: var(--color-65);
+}
+
+/*--- Scrollbar  ---*/
+/* Scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+}
+
+body * {
+    box-sizing: border-box;
+    outline: none;
+}
+
+/*----- All Elements -----*/
+[el] {
+    all: unset;
+
+    --display: block;
+    --height: auto;
+    --width: auto;
+    --padding: 0px;
+    --border-radius: 0px;
+
+    --bg-color: transparent;
+
+    --border: 0px;
+    --hover-border: var(--border);
+    --pressed-border: var(--hover-border);
+    --disabled-border: var(--border);
+
+    --border-bottom: var(--border);
+    --hover-border-bottom: var(--hover-border);
+    --pressed-border-bottom: var(--pressed-border);
+    --disabled-border-bottom: var(--disabled-border);
+
+    --color: black;
+    --hover-color: var(--color);
+    --pressed-color: var(--hover-color);
+    --disabled-color: var(--color);
+
+    --text-transform: none;
+    --transition: 0s;
+    --position: relative;
+
+    display: var(--display);
+    height: var(--height);
+    width: var(--width);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    background-color: var(--bg-color);
+    border: var(--border, 0px);
+    border-bottom: var(--border-bottom);
+    color: var(--color);
+    text-transform: var(--text-transform);
+    transition: var(--transition);
+    position: var(--position);
+    direction: var(--direction);
+    outline: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-fill-color: var(--color);
+}
+
+/*----- Element States -----*/
+[el]:hover {
+    background-color: var(--hover-bg-color);
+    border: var(--hover-border);
+    border-bottom: var(--hover-border-bottom);
+    color: var(--hover-color);
+    -webkit-text-fill-color: var(--hover-color);
+}
+
+[el]:active {
+    background-color: var(--pressed-bg-color);
+    border: var(--pressed-border);
+    border-bottom: var(--pressed-border-bottom);
+    color: var(--pressed-color);
+    -webkit-text-fill-color: var(--pressed-color);
+}
+
+[el]:focus {
+    background-color: var(--pressed-bg-color);
+    border: var(--pressed-border);
+    border-bottom: var(--pressed-border-bottom);
+    color: var(--pressed-color);
+    -webkit-text-fill-color: var(--pressed-color);
+}
+
+[el]:disabled,
+[el][disabled],
+[el ~='disabled'] {
+    background-color: var(--disabled-bg-color) !important;
+    border: var(--disabled-border) !important;
+    border-bottom: var(--disabled-border-bottom) !important;
+    color: var(--disabled-color) !important;
+    -webkit-text-fill-color: var(--disabled-color) !important;
+    cursor: no-drop !important;
+}
+
+/*----- Element Modifiers -----*/
+[el ~='rnd'] {
+    /*--- Rounded ---*/
+    --border-radius: 100px !important;
+}
+
+[el ~='stretch'] {
+    --width: 100% !important;
+}
+
+[el ~='shadow-sm'] {
+    filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.12)) drop-shadow(0 1px 2px rgba(0, 0, 0, 0.24));
+}
+
+[el ~='shadow'] {
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.16)) drop-shadow(0 3px 6px rgba(0, 0, 0, 0.23));
+}
+
+[el ~='shadow-lg'] {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.19)) drop-shadow(0 6px 6px rgba(0, 0, 0, 0.23));
+}
+
+[el ~='lg-txt'] {
+    font-size: 18px !important;
+}
+
+[el ~='sm-txt'] {
+    font-size: 12px !important;
+}
+
+[el ~='rtl'] {
+    --direction: rtl;
+}
+
+[el ~='error-color'] {
+    --color: var(--color-dusk);
+}

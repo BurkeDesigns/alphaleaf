@@ -1,0 +1,171 @@
+/*--- Forms Elements: inputs, dropdowns, checkbox, radio, etc... ---*/
+/*[el~='input'][type='text'],*/
+[el ~='input'],
+[el|='input'] {
+    --display: grid;
+    grid-auto-flow: row;
+    grid-gap: 3px;
+}
+
+
+[el|='input']:not([el*='label']) > *[el ~='label'],
+[el|='input']:not([el*='error']) > *[el ~='error'],
+[el|='input']:not([el*='required']) > *[el ~='required'] {
+    --display: none;
+}
+
+[el*='input-list'] input[type='text'] {
+    --width: 100%;
+    --height: 35px;
+    --padding: 0px;
+    --border-radius: 0px;
+    --display: flex;
+    --transition: 0.2s;
+    --color: var(--color-65);
+    --hover-color: black;
+
+    --border-bottom: 1px solid var(--color-65);
+    --hover-border-bottom: 1px solid var(--color-sky);
+    --pressed-border-bottom: 1px solid var(--color-sky);
+    align-items: center;
+    min-width: 100px;
+}
+
+[el*='input-list'] textarea {
+    --width: 100%;
+    --height: 250px;
+    --padding: 10px;
+    --border-radius: 0px;
+    --display: flex;
+    --transition: 0.2s;
+    --color: var(--color-65);
+    --hover-color: black;
+
+    --border: 1px solid var(--color-65);
+    --hover-border: 1px solid var(--color-sky);
+    --pressed-border: 1px solid var(--color-sky);
+    min-width: 150px;
+}
+
+[el*='input-error'] textarea {
+    --border: 1px solid var(--color-dusk);
+    --hover-border: 1px solid var(--color-dusk);
+    --pressed-border: 1px solid var(--color-dusk);
+}
+
+[el*='input-error'] input[type='text'] {
+    --border-bottom: 1px solid var(--color-dusk);
+    --hover-border-bottom: 1px solid var(--color-dusk);
+    --pressed-border-bottom: 1px solid var(--color-dusk);
+}
+
+[el*='input-list'] {
+    --display: grid;
+    --flow: row;
+    grid-gap: 5px;
+    grid-auto-flow: var(--flow);
+}
+
+[el*='input-list'] label:not([el~='select']):not([el|='input']) {
+    cursor: pointer;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 10px;
+    user-select: none;
+}
+
+[el ~='select'] {
+    --height: 35px;
+    --border-bottom: 1px solid var(--color-65);
+    --hover-border-bottom: 1px solid var(--color-sky);
+    --color: var(--color-65);
+    --hover-color: black;
+    --pressed-color: var(--color-sky);
+    overflow: hidden;
+    min-width: 150px;
+}
+
+[el ~='select'] > select {
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    padding-right: 30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+[el*='input-list'] select + i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+[el*='input-list'] select + i::after {
+    content: 'keyboard_arrow_down';
+}
+
+[el*='input-list'] input[type='radio'],
+[el*='input-list'] input[type='checkbox'] {
+    display: none;
+}
+
+[el*='input-list'] input[type='radio'] + i::after {
+    content: 'radio_button_unchecked';
+}
+
+[el*='input-list'] input[type='radio']:checked + i::after {
+    content: 'radio_button_checked';
+}
+
+[el*='input-list'] input[type='checkbox'] + i::after {
+    content: var(--control-content, 'check_box_outline_blank');
+}
+
+[el*='input-list'] input[type='checkbox']:checked + i::after {
+    content: var(--control-content, 'check_box');
+}
+
+[el*='input-list-circle'] input[type='checkbox'] + i::after {
+    --control-content: 'radio_button_unchecked';
+}
+
+[el*='input-list-circle'] input[type='checkbox']:checked + i::after {
+    --control-content: 'check_circle';
+}
+
+[el*='input-list-circle'] input[type='checkbox']:hover + i::after {
+    --control-content: 'check_circle_outline';
+}
+
+[el*='input-list'] input[type='checkbox'] + i,
+[el*='input-list'] input[type='radio'] + i {
+    --color: var(--color-65);
+    color: var(--color-sky);
+    -webkit-text-fill-color: var(--color);
+}
+
+[el*='input-list'] input[type='checkbox']:checked + i,
+[el*='input-list'] input[type='radio']:checked + i {
+    --color: var(--color-sky);
+    color: var(--color-sky);
+    -webkit-text-fill-color: var(--color);
+}
+
+[el ~='row'] {
+    --flow: row;
+}
+
+[el ~='column'] {
+    --flow: column;
+}
