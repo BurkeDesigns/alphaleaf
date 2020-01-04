@@ -4,6 +4,11 @@
     font-weight:normal;
     --color:#161c2d;
 }
+[el~="sm-title"]{
+    font-size:1.5rem !important;
+    font-weight:normal;
+    --color:#161c2d;
+}
 [el~="p"]{
     font-size:1rem;
     line-height: 1.75em;

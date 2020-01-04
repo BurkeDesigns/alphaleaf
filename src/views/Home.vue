@@ -3,9 +3,9 @@
     <div el="section">
         <div el="card" style="justify-content: space-between; align-items:center;">
             <div el="list">
-                <div el="title">Heading</div>
+                <div el="title">Become an SDET Developer</div>
                 <div el="p lg-txt">
-                    Build a beautiful, modern website with flexible layout components built from scratch.
+                    Earn up to <b>140k</b> per year as an SDET engineer without a degree after 5 months of training
                 </div>
                 <div el="list-column" style="--gap:10px;margin-top:20px;">
                     <button el="btn">Learn More</button>
@@ -13,6 +13,12 @@
                 </div>
             </div>
             <img src="../assets/img/illustration-2.png" alt="" el="flex-img">
+        </div>
+    </div>
+    <div el="section">
+        <div el="title">Companies Hiring SDET</div>
+        <div el="list-column">
+            <!-- <img src="../assets/img/illustration-2.png" alt="" el="flex-img"> -->
         </div>
     </div>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
