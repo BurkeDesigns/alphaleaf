@@ -46,3 +46,16 @@
     </div>
   </div>
 </template>
+<style scoped>
+[el~="sm-title"]:after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+    border: 2px solid #000;
+    position: absolute;
+    top: 20%;
+    background-color: #fff;
+    left: -28px;
+}
+</style>
