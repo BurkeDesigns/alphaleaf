@@ -43,7 +43,7 @@
                 <div el="list">
                     <b>Project Based Environment</b>
                     <div el="p lg-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lorem placerat, facilisis lacus eget, tempor tortor. Integer in ex eget eros tempor feugiat
+                        Learn essential SDET skills by contributing to real on-going projects.
                     </div>
                     <!-- <div el="list-column" style="--gap:10px;margin-top:20px;">
                         <button el="btn">Learn More</button>
@@ -55,9 +55,9 @@
             <div el="card" style="justify-content: space-between; align-items:center;">
                 
                 <div el="list">
-                    <b>Immersive Training that uses Industry Standard Tools</b>
+                    <b>Immersive Training using Industry Standard Tools</b>
                     <div el="p lg-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lorem placerat, facilisis lacus eget, tempor tortor. Integer in ex eget eros tempor feugiat
+                        Gain experience with standardized real-world tools that prepare you for a successful career.
                     </div>
                     <!-- <div el="list-column" style="--gap:10px;margin-top:20px;">
                         <button el="btn">Learn More</button>
@@ -72,7 +72,7 @@
                 <div el="list">
                     <b>No-Fluff Learning</b>
                     <div el="p lg-txt">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed lorem placerat, facilisis lacus eget, tempor tortor. Integer in ex eget eros tempor feugiat
+                        Learn the skills you need for the job, not the skills you'll never use.
                     </div>
                     <!-- <div el="list-column" style="--gap:10px;margin-top:20px;">
                         <button el="btn">Learn More</button>
