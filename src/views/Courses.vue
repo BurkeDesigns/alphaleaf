@@ -3,12 +3,12 @@
       <div el="section">
         <div el="card" style="justify-content: space-between; align-items:center;">
             <div el="list">
-                <div el="title">SDET Course</div>
+                <div el="title">SDET Course - $4,500</div>
                 <div el="p lg-txt">
-                    Praesent consectetur eu augue ut vehicula. Sed fermentum mattis ante nec blandit. Cras pretium quis arcu at malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eget ante congue est faucibus porttitor. Cras libero ex, ultricies et placerat quis, rhoncus sed purus. Aenean dictum nisi orci, a suscipit purus efficitur a. Nulla sed ligula congue, pulvinar ex eget, porttitor orci.
+                    Software Development Engineers in Test (SDET) identify areas within a program that require adjustment. These areas include programmatic flaws and/or end user experiences that require developer attention. Throughout our course you'll use industry standard tools in test automation for application quality control. You'll be one step closer to getting the job of your dreams. 
                 </div>
                 <div el="list-column" style="--gap:10px;margin-top:20px;">
-                    <button el="btn">Enroll</button>
+                    <router-link to="/enroll" el="btn">Enroll</router-link>
                     <!-- <button el="btn-2ry">Enroll</button> -->
                 </div>
             </div>

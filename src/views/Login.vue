@@ -1,7 +1,39 @@
 <template>
-  <div>
+  <main el="main">
       <div el="section">
-          <h1 el="title">Login page</h1>
+          <div el="input-list">
+            <h1 el="title">Dashboard</h1>
+
+            <label for="username" el="input-label">
+              <div el="sm-txt label">Username</div>
+              <input id="username" name="username" type="text" placeholder="My email..." el>
+              <div el="sm-txt error error-color">Error message</div>
+            </label>
+
+            <label for="password" el="input-label">
+              <div el="sm-txt label">Password</div>
+              <input id="password" name="password" type="password" placeholder="My password..." el>
+              <div el="sm-txt error error-color">Error message</div>
+            </label>
+
+            <button el="btn stretch" style="margin-top:15px;">Sign In</button>
+          </div>
       </div>
-  </div>
+  </main>
 </template>
+<style scoped>
+[el=main]{
+  padding-top:30px;
+  background-image: linear-gradient(0deg, transparent, #f1f4f8), url(https://images.pexels.com/photos/2343891/pexels-photo-2343891.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;
+    background-position: center;
+}
+[el='input-list']{
+  max-width: 300px;
+  margin: auto;
+  padding: 30px;
+  background-image: linear-gradient(45deg, #fff, transparent);
+  border-radius: 3px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+</style>

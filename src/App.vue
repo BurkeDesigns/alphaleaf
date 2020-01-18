@@ -47,7 +47,7 @@
                             </div>
                         </div>
                         <nav el="nav">
-                            <router-link to="/programs">Programs</router-link>
+                            <router-link to="/courses">Courses</router-link>
                             <router-link to="/about">About</router-link>
                             <router-link to="/contact">Contact</router-link>
                             <router-link to="/login">Sign In</router-link>
@@ -64,9 +64,9 @@
                     
                 </div>
             </header>
-            <main el="main">
-                <router-view/>
-            </main>
+            
+            <router-view/>
+            
             <footer el="footer"></footer>
         </div>
     </div>
