@@ -4,7 +4,7 @@
     --display: grid;
     --bg-color: transparent;
     grid-template-columns: 1fr;
-    grid-template-rows: 80px 1fr minmax(80px,max-content);
+    grid-template-rows: 80px 1fr; /* 80px 1fr minmax(80px,max-content) */
     /* "header section main aside" */
     min-height: 100vh;
 }
@@ -33,6 +33,7 @@
 
 [el ~="layout"] > [el ~="main"] {
     background-color: #fff;
+    padding-bottom:50px;
 }
 
 [el ~="layout"] > [el ~="footer"] {

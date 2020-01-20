@@ -9,7 +9,7 @@
                 </div>
                 <div el="list-column" style="--gap:10px;margin-top:20px;">
                     <router-link to="/about" el="btn">Learn More</router-link>
-                    <router-link to="/about" el="btn-2ry">Enroll</router-link>
+                    <router-link to="/enroll" el="btn-2ry">Enroll</router-link>
                 </div>
             </div>
             <img src="../assets/img/illustration-2.png" alt="" el="flex-img">
