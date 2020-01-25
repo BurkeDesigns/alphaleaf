@@ -8,3 +8,4 @@
 @import './components/inputs.css'; /*--- Forms Elements: inputs, dropdowns, checkbox, radio, etc... ---*/
 @import './components/links.css';
 @import './components/progress-bar.css';
+@import './components/notification.css';

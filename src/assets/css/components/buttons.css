@@ -5,11 +5,11 @@
     --width: inherit;
     --display: inline-flex;
     --padding: 0 27px;
-    --border-radius: 3px;
+    --border-radius: 4px;
 
-    --bg-color: var(--control-color, var(--color-sky));
-    --hover-bg-color: var(--control-hover-color, var(--color-rain));
-    --pressed-bg-color: var(--control-pressed-color, var(--color-sea));
+    --bg-color: var(--control-color, var(--color-secondary));
+    --hover-bg-color: var(--control-hover-color, var(--color-secondary));
+    --pressed-bg-color: var(--control-pressed-color, var(--color-secondary));
     --disabled-bg-color: var(--color-13);
 
     --color: #fff;
@@ -19,6 +19,8 @@
     --transition: 0.2s;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
+    white-space: nowrap;
     text-decoration: none;
     user-select: none;
     cursor: pointer;
@@ -30,7 +32,7 @@
     --pressed-color: var(--control-pressed-color, var(--color-sea));
     --disabled-color: var(--color-25);
 
-    --bg-color: transparent;
+    --bg-color: #fff;
     --hover-bg-color: transparent;
     --pressed-bg-color: transparent;
     --disabled-bg-color: transparent;

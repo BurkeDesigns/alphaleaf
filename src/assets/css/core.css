@@ -10,29 +10,79 @@ Updated: 11/14/2019
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /*----- Design Standard Variables ------*/
 :root {
-    --color-ocean: #002038;
+
+    --color-primary:#02B3E4;
+    --color-secondary:#1D7CF8;
+    --color-light:#F3F8FE;
+    --color-dark:#525C65;
+
+    --color-success:#1AA200;
+    --color-info: #EBA244;
+
+    /*----- Primary -----*/
+    --color-ocean: #002d55;
     --color-sea: #003c78;
     --color-mist: #4876b7;
     --color-rain: #0056c9;
     --color-sky: #0068ff;
     --color-cloud: #3c8bfd;
-    --color-frost: #03dac6;
-    --color-aurora: #6200ee;
+    /*----- Accent -----*/
     --color-storm: #018786;
-    --color-earth: #4e973e;
+    --color-frost: #03dac6;
     --color-forest: #41a92a;
-    --color-dusk: #e31c3d;
+    --color-earth: #4e973e;
     --color-moon: #fd9509;
+    --color-dusk: #e31c3d;
     --color-sunset: #ff297d;
-    --color-earth-5: rgba(78, 151, 62, 0.05);
-    --color-rain-5: rgba(0, 86, 201, 0.05);
+    --color-aurora: #6200ee;
+    /*----- Black -----*/
     --color-black: #000000;
+    --color-80: rgba(0, 0, 0, 0.8);
     --color-65: rgba(0, 0, 0, 0.65);
     --color-40: rgba(0, 0, 0, 0.4);
     --color-25: rgba(0, 0, 0, 0.25);
     --color-13: rgba(0, 0, 0, 0.13);
-    --color-3: rgba(128, 128, 128, 0.05);
+    --color-3: rgba(128, 128, 128, 0.03);
     --color-white: #ffffff;
+    /*----- Transparent -----*/
+    --color-earth-3: rgba(78, 151, 62, 0.03);
+    --color-moon-3: rgba(253, 149, 9, 0.03);
+    --color-dusk-3: rgba(227, 28, 61, 0.03);
+    --color-sky-3: rgba(0, 104, 255, 0.03);
+    --color-earth-5: rgba(78, 151, 62, 0.05);
+    --color-moon-5: rgba(253, 149, 9, 0.05);
+    --color-dusk-5: rgba(227, 28, 61, 0.05);
+    --color-sky-5: rgba(0, 104, 255, 0.05);
+    /*----- Typography -----*/
+    --font-body: 'Roboto', sans-serif;
+    --font-h1: 42px;
+    --font-h2: 34px;
+    --font-h3: 24px;
+    --font-h4: 20px;
+    --font-h5: 13px;
+    --font-p: 16px;
+    --font-p-bold: bold;
+    /*----- Typography Weights -----*/
+    --font-light:300;
+    --font-regular:400;
+    --font-medium:500;
+    --font-bold:700;
+    /*----- Layout -----*/
+    --space-xxxsm: 4px;
+    --space-xxsm: 8px;
+    --space-xsm: 16px;
+    --space-sm: 24px;
+    --space-md: 32px;
+    --space-lg: 48px;
+    --space-xlg: 64px;
+    --space-xxlg: 96px;
+    /*----- Shape -----*/
+    --border-style: solid;
+    --border-width: 1px;
+    --border-radius-3: 3px;
+    --border-radius-100: 100%;
+    --shadow-low: 0px 2px 7px rgba(0,2,7,0.1);
+    --shadow-high: 0px 2px 22px rgba(0,2,7,0.1);
 }
 
 /*----- Other Default Styles  -----*/
@@ -89,6 +139,9 @@ body * {
     --border-radius: 0px;
 
     --bg-color: transparent;
+	--hover-bg-color: var(--bg-color);
+	--pressed-bg-color: var(--hover-bg-color);
+	--disabled-bg-color: var(--bg-color);
 
     --border: 0px;
     --hover-border: var(--border);
@@ -100,7 +153,7 @@ body * {
     --pressed-border-bottom: var(--pressed-border);
     --disabled-border-bottom: var(--disabled-border);
 
-    --color: black;
+    --color: inherit;
     --hover-color: var(--color);
     --pressed-color: var(--hover-color);
     --disabled-color: var(--color);

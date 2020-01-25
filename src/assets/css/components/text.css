@@ -1,4 +1,57 @@
 /*----- Text -----*/
+h1[el] {
+    font-size: var(--font-h1);
+    font-weight: var(--font-light);
+  
+}
+
+h2[el] {
+    font-size: var(--font-h2);
+    font-weight: var(--font-regular); /*-- can be light --*/
+}
+
+h3[el] {
+    font-size: var(--font-h3);
+    font-weight: var(--font-regular);
+    --color: var(--color-secondary);
+}
+
+h4[el] {
+    font-size: var(--font-h4);
+    font-weight: var(--font-medium); /*-- can be light and medium --*/
+}
+
+h5[el]{
+    font-size: var(--font-h5);
+    font-weight: var(--font-regular);
+}
+
+p[el]{
+    font-size: var(--font-p);
+    font-weight: var(--font-regular);
+    --color:hsla(0,0%,0%,0.6);
+}
+p[el~=white75]{
+    --color:hsla(0,0%,100%,0.75);
+}
+h3[el~=white]{
+    --color:hsla(0,0%,100%,1);
+}
+
+[el~="bold"] {
+    font-weight: var(--font-bold) !important;
+}
+
+[el~="underline"] {
+    text-decoration: underline;
+}
+
+[el~="italic"] {
+    font-style: italic;
+}
+
+
+
 [el~="title"]{
     font-size:2.25rem;
     font-weight:normal;
@@ -13,4 +66,12 @@
     font-size:1rem;
     line-height: 1.75em;
     --color:#869ab8;
+}
+
+hr[el]{
+    height:1px;
+    --bg-color:var(--color-13);
+    width:100%;
+    border:0;
+    margin:16px 0;
 }

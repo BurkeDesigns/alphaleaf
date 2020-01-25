@@ -19,7 +19,7 @@
     padding: 0;
 }
 [el ~="layout"] > [el ~="header"] > [el~="section"]{
-    padding:0 20px;
+    padding:0 30px;
 }
 [el="logo"]{
     height:40px;
@@ -43,7 +43,7 @@
 /*----- Containers -----*/
 [el~="section"]{
     width:100%;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: auto;
     padding:20px;
     box-sizing: border-box;
@@ -63,14 +63,17 @@
 
 [el ~="list-column"] {
     /*--- or call it "list-wrap" or "list-horz" or "list-ltr" or "list-column" ---*/
-    --display: flex;
-    flex-wrap: wrap;
+    --display: grid;
+    grid-auto-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-gap:var(--gap);
 }
 
-[el ~="list-column"] > * {
+/* [el ~="list-column"] > * {
     margin-right: var(--gap);
     margin-bottom: var(--gap);
-}
+} */
 
 [el ~="list-column-fixed"] {
     --display: flex;
@@ -83,8 +86,9 @@
 
 [el ~="list-column-alt"],
 [el ~="list-column-switch"] {
-    --display: flex;
-    flex-wrap: wrap;
+    --display: grid;
+    grid-auto-flow: column;
+    grid-gap: var(--gap);
 }
 
 [el ~="list-column-alt"] > * {
@@ -98,7 +102,7 @@
 
 @media (max-width: 800px) {
     [el ~="list-column-alt"] {
-        flex-direction: column-reverse;
+        grid-auto-flow: row;
     }
 
     [el ~="list-column-switch"] {

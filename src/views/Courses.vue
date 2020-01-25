@@ -1,61 +1,151 @@
 <template>
   <div>
-      <div el="section">
-        <div el="card" style="justify-content: space-between; align-items:center;">
-            <div el="list">
-                <div el="title">SDET Course - $4,500</div>
-                <div el="p lg-txt">
-                    Software Development Engineers in Test (SDET) identify areas within a program that require adjustment. These areas include programmatic flaws and/or end user experiences that require developer attention. Throughout our course you'll use industry standard tools in test automation for application quality control. You'll be one step closer to getting the job of your dreams. 
-                </div>
-                <div el="list-column" style="--gap:10px;margin-top:20px;">
-                    <router-link to="/enroll" el="btn">Enroll</router-link>
-                    <!-- <button el="btn-2ry">Enroll</button> -->
-                </div>
-            </div>
-            <img src="../assets/img/illustration-2.png" alt="" el="flex-img">
-        </div>
-    </div>
     <div el="section">
-        <div el="title">What You'll Learn</div>
-        <div el="list-column" style="padding-left: 20px;border-left: 2px solid;margin-left:20px;margin-top:30px;">
-            <div el="list">
-                <div el="sm-title">SCRUM</div>
-                <div el="p lg-txt">
-                    Praesent consectetur eu augue ut vehicula. Sed fermentum mattis ante nec blandit. Cras pretium quis arcu at malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eget ante congue est faucibus porttitor. Cras libero ex, ultricies et placerat quis, rhoncus sed purus. Aenean dictum nisi orci, a suscipit purus efficitur a. Nulla sed ligula congue, pulvinar ex eget, porttitor orci.
+        <div el="list" style="padding:30px;--gap:45px;">
+            <div el="list-column">
+                <div el="list">
+                    <h3 el>Software Engineer in Test</h3>
+                    <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    <div>
+                        <router-link to="/enroll" el="btn">enroll</router-link>
+                    </div>
+                    <hr el>
+                    <div class="col3-wrap">
+                    <div el="list-column">
+                        <div>
+                            <i class="material-icons">access_time</i>
+                        </div>
+                        <div el="list" style="text-align:left;--gap:8px;">
+                            <p el="bold" style="--color:var(--color-dark);">Estimated Time</p>
+                            <p el>5 months at 9 hrs/week</p>
+                        </div>
+                    </div>
+                    <div el="list-column">
+                        <div>
+                            <i class="material-icons">calendar_today</i>
+                        </div>
+                        <div el="list" style="text-align:left;--gap:8px;">
+                            <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
+                            <p el>March 1, 2020 @7pm</p>
+                        </div>
+                    </div>
+                    <div el="list-column">
+                        <div>
+                            <i class="material-icons">info</i>
+                        </div>
+                        <div el="list" style="text-align:left;--gap:8px;">
+                            <p el="bold" style="--color:var(--color-dark);">Prior programming experience not required</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                </div>
+                <div>
+                    <img src="../assets/img/coding-help.jpg" alt="" style="width: 400px;border-radius:8px;">
                 </div>
             </div>
             <div el="list">
-                <div el="sm-title">JAVA Basics</div>
-                <div el="p lg-txt">
-                    Praesent consectetur eu augue ut vehicula. Sed fermentum mattis ante nec blandit. Cras pretium quis arcu at malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eget ante congue est faucibus porttitor. Cras libero ex, ultricies et placerat quis, rhoncus sed purus. Aenean dictum nisi orci, a suscipit purus efficitur a. Nulla sed ligula congue, pulvinar ex eget, porttitor orci.
-                </div>
+                <h4 el>Prerequisite Knowledge</h4>
+                <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
             </div>
             <div el="list">
-                <div el="sm-title">SQL</div>
-                <div el="p lg-txt">
-                    Praesent consectetur eu augue ut vehicula. Sed fermentum mattis ante nec blandit. Cras pretium quis arcu at malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eget ante congue est faucibus porttitor. Cras libero ex, ultricies et placerat quis, rhoncus sed purus. Aenean dictum nisi orci, a suscipit purus efficitur a. Nulla sed ligula congue, pulvinar ex eget, porttitor orci.
+                <h4 el>What You'll Learn</h4>
+                <div el="list" class="timeline">
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>SCRUM</h4>
+                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    </div>
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>JAVA Basics</h4>
+                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    </div>
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>SQL</h4>
+                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    </div>
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>API Testing</h4>
+                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    </div>
+
+
+
                 </div>
             </div>
+        </div>
+        
+    </div>
+    <div style="min-height:400px;background-image: linear-gradient(130deg, #292E33, #525C65);">
+        <div el="section">
             <div el="list">
-                <div el="sm-title">API</div>
-                <div el="p lg-txt">
-                    Praesent consectetur eu augue ut vehicula. Sed fermentum mattis ante nec blandit. Cras pretium quis arcu at malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum eget ante congue est faucibus porttitor. Cras libero ex, ultricies et placerat quis, rhoncus sed purus. Aenean dictum nisi orci, a suscipit purus efficitur a. Nulla sed ligula congue, pulvinar ex eget, porttitor orci.
-                </div>
+
             </div>
         </div>
     </div>
   </div>
 </template>
 <style scoped>
-[el~="sm-title"]:after {
-    content: "";
-    height: 10px;
-    width: 10px;
-    border-radius: 100px;
-    border: 2px solid #000;
+.timeline{
+    padding-left: 10px;
+}
+.timeline > *{
+    padding-left: 20px;
+    position: relative;
+}
+.timeline > *:not(:last-child):after{
+    content: '';
+    width: 2px;
+    background-color: var(--color-secondary);
+    left: 0;
+    top: 28px;
+    height: 80%;
     position: absolute;
-    top: 20%;
-    background-color: #fff;
-    left: -28px;
+}
+.timeline > *:before{
+    content:'';
+    width:15px;
+    height:15px;
+    border-radius: 100%;
+    border:2px solid var(--color-secondary);
+    background-color:var(--color-secondary);
+    left:0;
+    top:2px;
+    position: absolute;
+    transform: translateX(-50%);
+    z-index:1;
+}
+.col3-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-content: center;
+}
+.col3-wrap i{
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:800px){
+    
+    .col3-wrap{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width:600px){
+    .col3-wrap{
+        grid-template-columns: 1fr;
+    }
 }
 </style>

@@ -1,5 +1,5 @@
 /*--- Links ---*/
-[el ~='link'],
+[el~='link'],
 [el|='link'] {
     display: inline-grid;
     grid-auto-flow: column;
@@ -19,6 +19,6 @@
 }
 
 /*[el|='input']:not([el*='label']) > *[el~='label']*/
-[el ~='link']:not([el*='icon']) > i {
+[el~='link']:not([el*='icon']) > i {
     display: none;
 }
