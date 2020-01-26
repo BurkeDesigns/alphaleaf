@@ -67,7 +67,7 @@
             
         </div>
     </div>
-   
+   <!-- v-scroll="handleScroll" -->
     <div el="section">
         <div el="list" style="text-align:center;--gap:40px; padding-bottom:40px;">
             <h3 el>Our SDET Program Includes</h3>
@@ -152,6 +152,31 @@ export default {
   methods:{
       gsap(selector, options){
             gsap.to(selector, options);
+        },
+        handleScroll: function (evt, el) {
+            
+            if (window.scrollY > 50) {
+                gsap.to(el, {
+                    y: -10,
+                    duration:1,
+                    opacity: 1,
+                    ease: 'sine.out'
+                })
+            }
+            return window.scrollY > 100
+        }
+  },
+  directives: {
+      scroll: {
+            // directive definition
+            inserted: function (el, binding) {
+                let f = function (evt) {
+                    if (binding.value(evt, el)) {
+                        window.removeEventListener('scroll', f)
+                    }
+                };
+                window.addEventListener('scroll', f);
+            }
         }
   },
   mounted(){
@@ -171,6 +196,7 @@ export default {
       })
   }
 }
+
 </script>
 <style>
 #background{

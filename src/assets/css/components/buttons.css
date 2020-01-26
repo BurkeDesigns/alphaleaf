@@ -95,3 +95,10 @@
     --control-hover-color: var(--color-sky);
     --control-pressed-color: var(--color-rain);
 }
+
+@media (max-width:800px){
+    [el ~='btn'],
+    [el|='btn'] {
+        --width:100%;
+    }
+}

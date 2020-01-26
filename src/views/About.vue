@@ -136,5 +136,20 @@ img.socialmedia:hover{
   [el=c]{
     grid-template-columns: 1fr;
   }
+  .socialList{
+      grid-template-columns: 130px 1fr;
+      grid-template-rows: 50px 50px;
+      padding-bottom: 40px;
+  }
+  .youtube{
+    margin-left:50px;
+  }
+  img.socialmedia {
+      height: 80px;
+      filter:drop-shadow(0 3px 8px rgba(0,0,0,0.2));
+      transition:0.3s;
+      cursor: pointer;
+      user-select: none;
+  }
 }
 </style>
