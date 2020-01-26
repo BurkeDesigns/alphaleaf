@@ -133,7 +133,7 @@
         <div el="section">
             <div el="list" style="text-align:center;">
                 <h3 el="white">Ready to Start?</h3>
-                <p el="white75">Enroll today and start working in the field in as little as 5 months earning up to $100k/yr!</p>
+                <p el="white75">Enroll today and start working in the field in as little as 5 months earning up to $120k/yr!</p>
                 <div><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
             </div>
         </div>

@@ -30,6 +30,7 @@ p[el]{
     font-size: var(--font-p);
     font-weight: var(--font-regular);
     --color:hsla(0,0%,0%,0.6);
+    line-height: 1.5em;
 }
 p[el~=white75]{
     --color:hsla(0,0%,100%,0.75);

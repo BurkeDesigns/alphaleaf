@@ -254,3 +254,9 @@ body * {
 [el ~='error-color'] {
     --color: var(--color-dusk);
 }
+
+@media(max-width: 800px){
+    [el ~='mrtl'] {
+        --direction: rtl;
+    }
+}

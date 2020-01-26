@@ -2,7 +2,7 @@
   <div>
     <div el="section">
         <div el="list" style="padding:30px;--gap:45px;">
-            <div el="list-column">
+            <div el="list-column-alt">
                 <div el="list">
                     <h3 el>Software Engineer in Test</h3>
                     <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
@@ -10,7 +10,7 @@
                         <router-link to="/enroll" el="btn">enroll</router-link>
                     </div>
                     <hr el>
-                    <div class="col3-wrap">
+                    <div class="col3-wrap" style="padding-bottom: 30px;">
                     <div el="list-column">
                         <div>
                             <i class="material-icons">access_time</i>
@@ -81,10 +81,19 @@
         </div>
         
     </div>
-    <div style="min-height:400px;background-image: linear-gradient(130deg, #292E33, #525C65);">
+    <div style="min-height:400px;background-image: linear-gradient(130deg, #292E33, #525C65); display:flex;align-items:center;">
         <div el="section">
-            <div el="list">
-
+            <div el="list-column-alt" style="justify-content:space-around;--gap:30px; padding:30px 0;">
+                <div el="list" style="align-content:center;">
+                    <h3 el="white">Just a few of the top companies that hire SDET...</h3>
+                    <p el="white75">You don't need a college degree to start your career in SDET making $100k/yr</p>
+                    <div>
+                        <router-link to="/enroll" el="btn">learn more</router-link>
+                    </div>
+                </div>
+                <div>
+                    <img src="../assets/img/companies.png" alt="" style="width: 280px;margin: auto;">
+                </div>
             </div>
         </div>
     </div>
