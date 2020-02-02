@@ -195,6 +195,12 @@ img.socialmedia:hover{
   grid-row: 2;
   margin-left:95px;
 }
+label{
+  position:relative;
+}
+textarea{
+  width:100%;
+}
 @media(max-width:800px){
   .socialList{
       grid-template-columns: 130px 1fr;
