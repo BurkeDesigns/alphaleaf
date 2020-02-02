@@ -140,6 +140,40 @@
             </div>
         </div>
     </div>
+
+    <div>
+        <div el="section" style="padding:0;">
+          <div el="c">
+            <img src="https://alphaleaf.imgix.net/assets/img/person-looking-at-computer.jpg?auto=format&fit=min&w=700">
+            <div el="list" style="padding:40px;">
+              <h3 el>Software Engineer in Test (SDET)</h3>
+              <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+              <div><router-link to="/contact" el="btn">contact us</router-link></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="background-color:var(--color-light);">
+        <div el="section" style="padding:0;">
+            <div el="list" style="padding:40px;--gap:40px;">
+              <h3 el style="text-align:center;">How can Alphaleaf's programs help?</h3>
+
+                <div class="accordian-list">
+                    <div el="list" v-for="(item, index) in faq" @click="toggleAccordian(item)" :key="index">
+                        <div>
+                            {{item.label}}
+                            <i class="material-icons">keyboard_arrow_down</i>
+                        </div>
+                        <p v-if="item.expand" el>{{item.content}}</p>
+                    </div>
+                    
+                </div>
+
+
+            </div>
+        </div>
+      </div>
     
    
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -151,7 +185,36 @@ export default {
   name: 'home',
   components: {
   },
+  data(){
+      return{
+        faq:[
+            {
+                label:'When can I start?',
+                expand: false,
+                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+            },
+            {
+                label:"I don't have an IT background, can I do it?",
+                expand: false,
+                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+            },
+            {
+                label:"What will it cost me?",
+                expand: false,
+                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+            },
+            {
+                label:"Do you guarantee job placement?",
+                expand: false,
+                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+            },
+        ]
+      }
+  },
   methods:{
+      toggleAccordian(item){
+          item.expand = !item.expand;
+      },
       gsap(selector, options){
             gsap.to(selector, options);
         },
@@ -268,8 +331,48 @@ export default {
     align-items: center;
     justify-content: center;
 }
+[el=c]{
+  display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    min-height: 400px;
+}
+[el=c] > img{
+  display:block;
+  width:100%;
+  height:100%;
+  min-height:250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.accordian-list{
+  display: grid;
+    grid-gap: 10px;
+    max-width: 700px;
+    grid-template-columns: 1fr;
+    margin: auto;
+    width: 100%;
+  
+}
+.accordian-list > * > *:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+}
+.accordian-list > *{
+  --border:1px solid rgba(0,0,0,0.25);
+  padding:15px;
+  border-radius:4px;
+  position:relative;
+  --bg-color:#fff;
+}
 
 @media(max-width:800px){
+    [el=c]{
+    grid-template-columns: 1fr;
+  }
     .mobile-img-full{
         width: 100%;
         object-fit: cover;
