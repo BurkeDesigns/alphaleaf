@@ -52,7 +52,7 @@
                         </nav>
                         <div class="hideOnDesktop">
                             <div style="padding: 30px;background-color: #f1f4f8;width: 100%;">
-                                <button el="btn stretch">Enroll Today</button>
+                                <router-link to="/enroll" el="btn stretch">Enroll Today</router-link>
                             </div>
                         </div>
                     </div>
