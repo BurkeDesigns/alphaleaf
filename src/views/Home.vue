@@ -226,6 +226,7 @@ export default {
 .jobSearch input{
     padding: 0 20px;
     height: 40px;
+    width:100%;
     display: flex;
     align-items: center;
     border: 0;
