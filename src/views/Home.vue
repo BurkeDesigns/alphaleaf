@@ -157,7 +157,7 @@
       <div style="background-color:var(--color-light);">
         <div el="section" style="padding:0;">
             <div el="list" style="padding:40px;--gap:40px;">
-              <h3 el style="text-align:center;">How can Alphaleaf's programs help?</h3>
+              <h3 el style="text-align:center;">Frequently Asked Questions</h3>
 
                 <div class="accordian-list">
                     <div el="list" v-for="(item, index) in faq" @click="toggleAccordian(item)" :key="index">
