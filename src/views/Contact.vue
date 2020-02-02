@@ -225,6 +225,7 @@ img.socialmedia:hover{
   background-color: var(--color-secondary);
     padding: 30px;
     border-radius: 8px;
+    position:relative;
 }
 
 

@@ -61,7 +61,7 @@
                 <h3 el>Become a Software Engineer in Test this Year!</h3>
                 <p el>Enroll today and start working in the field in as little as 5 months!</p>
             </div>
-            <div class="card-content">
+            <div class="card-content" style="position:relative;">
                 <router-link to="/courses" el="btn-2ry">learn more</router-link>
             </div>
             
@@ -134,7 +134,7 @@
             <div el="list" style="text-align:center;">
                 <h3 el="white">Ready to Start?</h3>
                 <p el="white75">Enroll today and start working in the field in as little as 5 months earning up to $120k/yr!</p>
-                <div><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
+                <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
             </div>
         </div>
     </div>
@@ -286,6 +286,11 @@ export default {
 @media(max-width:600px){
     .col3-wrap{
         grid-template-columns: 1fr;
+    }
+    [el ~='btn'],
+    [el|='btn']{
+        width:100%;
+        /* max-width: calc(100% - 60px); */
     }
 }
 

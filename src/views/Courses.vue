@@ -47,7 +47,7 @@
 
                 </div>
                 <div>
-                    <img src="../assets/img/coding-help.jpg" alt="" style="width: 400px;border-radius:8px;">
+                    <img src="../assets/img/coding-help.jpg" alt="" style="border-radius:8px;" class="courseImg">
                 </div>
             </div>
             <div el="list">
@@ -145,11 +145,18 @@
     align-items: center;
     justify-content: center;
 }
+.courseImg{
+    width:100%;
+    max-width:400px;
+}
 
 @media(max-width:800px){
     
     .col3-wrap{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .courseImg{
+        width:100%;
     }
 }
 @media(max-width:600px){

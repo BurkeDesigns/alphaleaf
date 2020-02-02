@@ -2,8 +2,8 @@
 [el ~='btn'],
 [el|='btn'] {
     --height: 48px;
-    --width: inherit;
-    --display: inline-flex;
+    --width: max-content;
+    --display: inline-grid;
     --padding: 0 27px;
     --border-radius: 4px;
 
@@ -24,6 +24,7 @@
     text-decoration: none;
     user-select: none;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 [el|='btn'][el*='2ry'] {
