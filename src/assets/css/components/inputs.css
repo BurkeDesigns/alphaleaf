@@ -21,12 +21,12 @@
     --border-radius: 0px;
     --display: flex;
     --transition: 0.2s;
-    --color:var(--color-black);
-    --hover-color:black;
+    --color:#fff;
+    /* --hover-color:black; */
 
-    --border-bottom: 1px solid var(--color-25);
-    --hover-border-bottom: 1px solid var(--color-sky);
-    --pressed-border-bottom: 1px solid var(--color-sky);
+    --border-bottom: 1px solid hsla(0,0%,100%,0.5);
+    --hover-border-bottom: 1px solid hsla(0,0%,100%,1);
+    --pressed-border-bottom: 1px solid hsla(0,0%,100%,1);
     align-items: center;
     min-width:100px;
 }
@@ -37,12 +37,12 @@
     --border-radius: 0px;
     --display: flex;
     --transition: 0.2s;
-    --color:var(--color-black);
-    --hover-color:black;
+    --color:#fff;
+    /* --hover-color:black; */
 
-    --border: 1px solid var(--color-25);
-    --hover-border: 1px solid var(--color-sky);
-    --pressed-border: 1px solid var(--color-sky);
+    --border: 1px solid hsla(0,0%,100%,0.5);
+    --hover-border: 1px solid hsla(0,0%,100%,1);
+    --pressed-border: 1px solid hsla(0,0%,100%,1);
     min-width:50px;
 }
 [el*='input-error'] textarea{

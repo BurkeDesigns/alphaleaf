@@ -54,7 +54,7 @@
                       </label>
 
                       <label for="textarea1" el="input">
-                          <textarea name="textarea1" id="textarea1" placeholder="Message" cols="30" rows="10" el></textarea>
+                          <textarea name="textarea1" id="textarea1" placeholder="Message" rows="10" el></textarea>
                       </label>
                   </div>
 
