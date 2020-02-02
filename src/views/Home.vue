@@ -55,7 +55,7 @@
     <div el="section">
         
         <div el="list-column-alt" class="banner">
-            <img src="https://alphaleaf.imgix.net/assets/img/code-glasses.jpeg?auto=format" alt="coding" class="w250 mobile-img-full">
+            <img src="https://alphaleaf.imgix.net/assets/img/code-glasses.jpeg?auto=compress&fit=min&w=500" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
                     <div el="status-sucess">get $500 off</div>
