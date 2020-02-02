@@ -199,7 +199,9 @@ label{
   position:relative;
 }
 textarea{
-  width:100%;
+  /* width:100%; */
+    position:relative;
+
 }
 @media(max-width:800px){
   .socialList{
