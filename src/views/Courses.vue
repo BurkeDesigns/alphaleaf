@@ -47,7 +47,7 @@
 
                 </div>
                 <div>
-                    <img src="../assets/img/coding-help.jpg" alt="" style="border-radius:8px;" class="courseImg">
+                    <img src="https://alphaleaf.imgix.net/assets/img/coding-help.jpg?auto=format&w=400&fit=min" alt="coding" style="border-radius:8px;" class="courseImg">
                 </div>
             </div>
             <div el="list">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="../assets/img/companies.png" alt="" style="width: 280px;margin: auto;">
+                    <img src="https://alphaleaf.imgix.net/assets/img/companies.png?auto=format" alt="top companies" style="width: 280px;margin: auto;">
                 </div>
             </div>
         </div>

@@ -68,9 +68,9 @@
                 <div el="list" style="padding:40px;">
                   <h3 el>Follow us on...</h3>
                   <div class="socialList">
-                    <img src="../assets/img/facebook.png" alt="" class="socialmedia facebook">
-                    <img src="../assets/img/youtube.png" alt="" class="socialmedia youtube">
-                    <img src="../assets/img/instagram.png" alt="" class="socialmedia instagram">
+                    <img src="https://alphaleaf.imgix.net/assets/img/facebook.png?auto=format" alt="facebook" class="socialmedia facebook">
+                    <img src="https://alphaleaf.imgix.net/assets/img/youtube.png?auto=format" alt="youtube" class="socialmedia youtube">
+                    <img src="https://alphaleaf.imgix.net/assets/img/instagram.png?auto=format" alt="instagram" class="socialmedia instagram">
                   </div>
                 </div>
                 

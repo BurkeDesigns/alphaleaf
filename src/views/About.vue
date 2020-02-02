@@ -39,7 +39,7 @@
       <div style="background-color:var(--color-secondary);">
         <div el="section" style="padding:0;">
           <div el="c">
-            <img src="../assets/img/girl-looking.jpg">
+            <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format">
             <div el="list" style="padding:40px;">
               <h3 el="white">How can Alphaleaf's programs help?</h3>
               <p el="white75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
@@ -68,12 +68,12 @@
             <div el="list" style="padding:40px;">
               <h3 el>Follow us on...</h3>
               <div class="socialList">
-                <img src="../assets/img/facebook.png" alt="" class="socialmedia facebook">
-                <img src="../assets/img/youtube.png" alt="" class="socialmedia youtube">
-                <img src="../assets/img/instagram.png" alt="" class="socialmedia instagram">
+                <img src="https://alphaleaf.imgix.net/assets/img/facebook.png?auto=format" alt="" class="socialmedia facebook">
+                <img src="https://alphaleaf.imgix.net/assets/img/youtube.png?auto=format" alt="" class="socialmedia youtube">
+                <img src="https://alphaleaf.imgix.net/assets/img/instagram.png?auto=format" alt="" class="socialmedia instagram">
               </div>
             </div>
-            <img src="../assets/img/social-media.jpg">
+            <img src="https://alphaleaf.imgix.net/assets/img/social-media.jpg?auto=format">
 
           </div>
         </div>

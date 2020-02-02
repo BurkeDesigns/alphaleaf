@@ -8,7 +8,9 @@
             <div el="list" class="jobSearch">
                 <h3 el="white">Learn SDET & earn ~$120k/yr after 5 months!</h3>
                 <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p>
-                <input type="text" placeholder="Job opportunities near me...">
+                <label for="jobInput">
+                    <input type="text" id="jobInput" placeholder="Job opportunities near me...">
+                </label>
                 <div class="jobResults" el="list">
                     <div el="list-column">
                         <i class="material-icons">work_outline</i>
@@ -53,7 +55,7 @@
     <div el="section">
         
         <div el="list-column-alt" class="banner">
-            <img src="../assets/img/code-glasses.jpeg" class="w250 mobile-img-full">
+            <img src="https://alphaleaf.imgix.net/assets/img/code-glasses.jpeg?auto=format" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
                     <div el="status-sucess">get $500 off</div>
@@ -204,7 +206,7 @@ export default {
     width: 100%;
     position: absolute;
     background-color: var(--color-dark);
-    background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(../assets/img/laptop.jpg);
+    background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/laptop.jpg?auto=format);
     background-size: 1300px;
     background-position: right center;
     background-repeat: no-repeat;

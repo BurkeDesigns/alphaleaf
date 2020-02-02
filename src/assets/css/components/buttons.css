@@ -25,6 +25,7 @@
     user-select: none;
     cursor: pointer;
     box-sizing: border-box;
+    text-align: center;
 }
 
 [el|='btn'][el*='2ry'] {
@@ -34,9 +35,9 @@
     --disabled-color: var(--color-25);
 
     --bg-color: #fff;
-    --hover-bg-color: transparent;
-    --pressed-bg-color: transparent;
-    --disabled-bg-color: transparent;
+    --hover-bg-color: var(--color-light);
+    --pressed-bg-color: var(--color-light);
+    --disabled-bg-color: var(--color-light);
 
     --border: 1px solid var(--control-color, var(--color-sky));
     --hover-border: 1px solid var(--control-hover-color, var(--color-rain));
