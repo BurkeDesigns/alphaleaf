@@ -6,7 +6,7 @@
     <div el="section">
         <div>
             <div el="list" class="jobSearch">
-                <h3 el="white">Learn SDET & earn ~$120k/yr after 5 months!</h3>
+                <h3 el="white">Learn SDET & earn an average of $80k - $120k after 5 months without a degree!</h3>
                 <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p>
                 <label for="jobInput">
                     <input type="text" id="jobInput" placeholder="Job opportunities near me...">
@@ -135,7 +135,7 @@
         <div el="section">
             <div el="list" style="text-align:center;">
                 <h3 el="white">Ready to Start?</h3>
-                <p el="white75">Enroll today and start working in the field in as little as 5 months earning up to $120k/yr!</p>
+                <p el="white75">Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
                 <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
             </div>
         </div>
@@ -147,11 +147,22 @@
             <img src="https://alphaleaf.imgix.net/assets/img/person-looking-at-computer.jpg?auto=format&fit=min&w=700" alt="coding">
             <div el="list" style="padding:40px;">
               <h3 el>Software Engineer in Test (SDET)</h3>
-              <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+              <p el>Today, all companies, big or small, are adopting fast-paced agile methodologies for the delivery of their software products.  The establishment of an agile development environment has created an incredible demand for Software Engineers in Test. Coined by Google, Software Engineer in Test or SET is responsible for setting up automated testing infrastructure by tackling software testing with the heart of a developer.  Through our extensive SET training program, you will learn how to set up infrastructures to run tests, design and create sophisticated test automation frameworks that plays a crucial role in Continuous Integration pipeline which you will also learn how to setup.</p>
               <div><router-link to="/contact" el="btn">contact us</router-link></div>
             </div>
           </div>
         </div>
+      </div>
+    <div style="background-color: var(--color-secondary)">
+        <div el="section" style="padding:0;">
+          
+            <div el="list" style="padding:40px;">
+              <h3 el="white">Why Alphaleaf?</h3>
+                <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
+              <p el="white75">At Alphaleaf, we believe that everyone has the right to a great career. You do not need a formal education or background - with Alphaleaf, we'll get you to your dream job in a fraction of the time and cost of a traditional program. </p>
+              <div><router-link to="/contact" el="btn-2ry">Start Today</router-link></div>
+            </div>
+          </div>
       </div>
 
       <div style="background-color:var(--color-light);">
