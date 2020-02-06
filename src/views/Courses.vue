@@ -5,7 +5,7 @@
             <div el="list-column-alt">
                 <div el="list">
                     <h3 el>Software Engineer in Test</h3>
-                    <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    <p el>Throughout our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks.</p>
                     <div>
                         <router-link to="/enroll" el="btn">enroll</router-link>
                     </div>
@@ -17,7 +17,7 @@
                         </div>
                         <div el="list" style="text-align:left;--gap:8px;">
                             <p el="bold" style="--color:var(--color-dark);">Estimated Time</p>
-                            <p el>5 months at 9 hrs/week</p>
+                            <p el>5 months</p>
                         </div>
                     </div>
                     <div el="list-column">
@@ -67,6 +67,10 @@
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>SQL</h4>
+                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                    </div>
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>API Testing</h4>
                         <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
                     </div>
                     <div el="list" style="--gap:8px;">

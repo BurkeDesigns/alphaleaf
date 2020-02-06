@@ -29,9 +29,9 @@
 }
 
 [el|='btn'][el*='2ry'] {
-    --color: var(--control-color, var(--color-sky));
-    --hover-color: var(--control-hover-color, var(--color-rain));
-    --pressed-color: var(--control-pressed-color, var(--color-sea));
+    --color: var(--control-color, var(--color-secondary));
+    --hover-color: var(--control-hover-color, var(--color-secondary));
+    --pressed-color: var(--control-pressed-color, var(--color-secondary));
     --disabled-color: var(--color-25);
 
     --bg-color: #fff;
@@ -39,9 +39,9 @@
     --pressed-bg-color: var(--color-light);
     --disabled-bg-color: var(--color-light);
 
-    --border: 1px solid var(--control-color, var(--color-sky));
-    --hover-border: 1px solid var(--control-hover-color, var(--color-rain));
-    --pressed-border: 1px solid var(--control-pressed-color, var(--color-sea));
+    --border: 1px solid var(--control-color, var(--color-secondary));
+    --hover-border: 1px solid var(--control-hover-color, var(--color-secondary));
+    --pressed-border: 1px solid var(--control-pressed-color, var(--color-secondary));
     --disabled-border: 1px solid var(--color-13);
 }
 
@@ -64,7 +64,7 @@
     --width: inherit;
     --display: inline-flex;
     --padding: 0 10px;
-    --color: var(--control-color, var(--color-sky));
+    --color: var(--control-color, var(--color-secondary));
     --hover-color: var(--control-hover-color, var(--color-rain));
     --pressed-color: var(--control-pressed-color, var(--color-sea));
     --disabled-color: var(--color-25);
@@ -94,7 +94,7 @@
 
 [el*='flat-btn'][el*='2ry'] {
     --control-color: var(--color-65);
-    --control-hover-color: var(--color-sky);
+    --control-hover-color: var(--color-secondary);
     --control-pressed-color: var(--color-rain);
 }
 

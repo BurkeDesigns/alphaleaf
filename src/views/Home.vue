@@ -6,7 +6,7 @@
     <div el="section">
         <div>
             <div el="list" class="jobSearch">
-                <h3 el="white">Learn SDET & earn an average of $80k - $120k after 5 months without a degree!</h3>
+                <h3 el="white">Learn SET & earn an average of $80k - $120k after 5 months without a degree!</h3>
                 <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p>
                 <label for="jobInput">
                     <input type="text" id="jobInput" placeholder="Job opportunities near me...">
@@ -38,19 +38,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div el="card" style="justify-content: space-between; align-items:center;">
-            <div el="list">
-                <div el="title">Become an SDET Developer</div>
-                <div el="p lg-txt">
-                    Earn up to <b>140k</b> per year as an SDET engineer without a degree after 5 months of training
-                </div>
-                <div el="list-column" style="--gap:10px;margin-top:20px;">
-                    <router-link to="/about" el="btn">Learn More</router-link>
-                    <router-link to="/enroll" el="btn-2ry">Get Started</router-link>
-                </div>
-            </div>
-            <img src="../assets/img/illustration-2.png" alt="" el="flex-img">
-        </div> -->
     </div>
     <div el="section">
         
@@ -58,7 +45,7 @@
             <img src="https://alphaleaf.imgix.net/assets/img/code-glasses.jpeg?auto=format&fit=min&w=400" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
-                    <div el="status-sucess">get $500 off</div>
+                    <div el="status-sucess">JOIN OUR FREE SESSION</div>
                 </div>
                 <h3 el>Become a Software Engineer in Test this Year!</h3>
                 <p el>Enroll today and start working in the field in as little as 5 months!</p>
@@ -72,7 +59,7 @@
    <!-- v-scroll="handleScroll" -->
     <div el="section">
         <div el="list" style="text-align:center;--gap:40px; padding-bottom:40px;">
-            <h3 el>Our SDET Program Includes</h3>
+            <h3 el>Our SET Program Includes</h3>
             <div class="col3-wrap">
                 <div el="list-column">
                     <div>
@@ -89,7 +76,7 @@
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Industry Standard Tools</h4>
-                        <p el>Learn how to use the most popular tools available to open the doors for a larger pool of job openings</p>
+                        <p el>You'll use the industry standard tools to experience a real work environment.</p>
                     </div>
                 </div>
                 <div el="list-column">
@@ -125,35 +112,47 @@
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Real World Experience</h4>
-                        <p el>Students will learn essential SDET skills by contributing to real on-going projects.</p>
+                        <p el>Learn employable SET skills by contributing to real on-going projects.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <div style="background-color:var(--color-secondary);min-height:400px;display:flex;align-items:center;">
-        <div el="section">
-            <div el="list" style="text-align:center;">
-                <h3 el="white">Ready to Start?</h3>
-                <p el="white75">Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
-                <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
+        <div el="section" style="padding: 60px 30px;">
+            <div el="list" style="text-align:left;--gap:30px;">
+                <div el="list">
+                    <h3 el="white">Why Alphaleaf?</h3>
+                    <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
+                    <p el="white75">At Alphaleaf, we believe that everyone has the right to a great career. You do not need a formal education or background - with Alphaleaf, we'll get you to your dream job in a fraction of the time and cost of a traditional program. </p>
+                </div>
+                <div el="list">
+                    <h3 el="white">Ready to Start?</h3>
+                    <p el="white75">Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
+                    <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- <div>
+        <div el="section">
+            <img src="../assets/img/temp_roadmap.png" alt="roadmap" style="width:100%;">
+        </div>
+    </div> -->
 
-    <div>
+    <!-- <div>
         <div el="section" style="padding:0;">
           <div el="c">
             <img src="https://alphaleaf.imgix.net/assets/img/person-looking-at-computer.jpg?auto=format&fit=min&w=700" alt="coding">
             <div el="list" style="padding:40px;">
-              <h3 el>Software Engineer in Test (SDET)</h3>
-              <p el>Today, all companies, big or small, are adopting fast-paced agile methodologies for the delivery of their software products.  The establishment of an agile development environment has created an incredible demand for Software Engineers in Test. Coined by Google, Software Engineer in Test or SET is responsible for setting up automated testing infrastructure by tackling software testing with the heart of a developer.  Through our extensive SET training program, you will learn how to set up infrastructures to run tests, design and create sophisticated test automation frameworks that plays a crucial role in Continuous Integration pipeline which you will also learn how to setup.</p>
+              <h3 el>Software Engineer in Test (SET)</h3>
+              <p el>Throughout our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks. </p>
               <div><router-link to="/contact" el="btn">contact us</router-link></div>
             </div>
           </div>
         </div>
-      </div>
-    <div style="background-color: var(--color-secondary)">
+      </div> -->
+    <!-- <div style="background-color: var(--color-secondary)">
         <div el="section" style="padding:0;">
           
             <div el="list" style="padding:40px;">
@@ -163,9 +162,9 @@
               <div><router-link to="/contact" el="btn-2ry">Start Today</router-link></div>
             </div>
           </div>
-      </div>
+      </div> -->
 
-      <div style="background-color:var(--color-light);">
+      <div>
         <div el="section" style="padding:0;">
             <div el="list" style="padding:40px;--gap:40px;">
               <h3 el style="text-align:center;">Frequently Asked Questions</h3>
@@ -280,7 +279,7 @@ export default {
     width: 100%;
     position: absolute;
     background-color: var(--color-dark);
-    background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/laptop.jpg?auto=format);
+    background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=1080);
     background-size: 1300px;
     background-position: right center;
     background-repeat: no-repeat;
@@ -381,6 +380,9 @@ export default {
 }
 
 @media(max-width:800px){
+    #background{
+        background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=900);
+    }
     [el=c]{
     grid-template-columns: 1fr;
   }

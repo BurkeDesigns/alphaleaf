@@ -41,8 +41,9 @@
           <div el="c">
             <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700">
             <div el="list" style="padding:40px;">
-              <h3 el="white">How can Alphaleaf's programs help?</h3>
-              <p el="white75">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+              <h3 el="white">Why Alphaleaf?</h3>
+              <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
+              <p el="white75">At Alphaleaf, we believe that everyone has the right to a great career. You do not need a formal education or background - with Alphaleaf, we'll get you to your dream job in a fraction of the time and cost of a traditional program.</p>
               <div><router-link to="/contact" el="btn-2ry">contact us</router-link></div>
             </div>
           </div>

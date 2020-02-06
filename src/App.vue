@@ -127,7 +127,7 @@ export default {
     -webkit-text-fill-color: currentColor;
 }
 .logo-symbol {
-    fill: #0068ff;
+    fill: var(--color-secondary);
 }
 
 .logo-letters {
