@@ -386,7 +386,9 @@ export default {
 
 @media(max-width:800px){
     #background{
-        background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=900);
+        background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
+        background-size: cover;
+        height: 350px;
     }
     [el=c]{
     grid-template-columns: 1fr;
