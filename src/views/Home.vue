@@ -206,17 +206,22 @@ export default {
             {
                 label:"I don't have an IT background, can I do it?",
                 expand: false,
-                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+                content: 'Of course you can! We believe in your future...?'
             },
             {
-                label:"What will it cost me?",
+                label:"Will I be certified?",
                 expand: false,
-                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+                content: 'At the end of our course you will...'
             },
             {
-                label:"Do you guarantee job placement?",
+                label:"Does Alphaleaf offer career services?",
                 expand: false,
-                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+                content: 'Yes, Alphaleaf will provide...'
+            },
+            {
+                label:"What do I need to get started?",
+                expand: false,
+                content: 'We require all students to have a laptop.'
             },
         ]
       }
