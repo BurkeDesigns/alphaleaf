@@ -6,7 +6,7 @@
           <div el="list">
             <h3 el>Alphaleaf School</h3>
             <p el>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae volutpat massa. Sed sit amet metus eget nunc egestas semper. Donec tincidunt luctus eros et euismod. Praesent porttitor accumsan ipsum nec tincidunt. Nullam vitae sem ex. In pretium aliquam nulla, aliquet molestie magna lobortis id. 
+              With our powerful and unique education process, we combine the traditional classroom and the real-world into a hands-on learning environment. Anyone with the desire to improve their life and the dedication to make a chance can prepare themselves to take on the most in-demand tech roles.
             </p>
             <div>
               <router-link to="/courses" el="btn">view programs</router-link>
@@ -19,9 +19,14 @@
             <div el="list">
                 <h3 el>Our Mission</h3>
                 <p el>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi.
+                  Our mission is to empower our students with high quality tech education and give them the opportunity to have the career of their dreams. 
                 </p>
-                <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. </p>
+                <p el>
+                  As a fast growing start up, we know first hand how technology is transforming the tech industry. We know exactly what the critical tech skills that companies are looking for in their workforce. 
+                </p>
+                <p el>
+
+                </p>
                 <!-- <div el="list-column" style="--gap:10px;margin-top:20px;">
                     <router-link to="/about" el="btn">Learn More</router-link>
                     <router-link to="/about" el="btn-2ry">Enroll</router-link>
@@ -44,6 +49,7 @@
               <h3 el="white">Why Alphaleaf?</h3>
               <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
               <p el="white75">At Alphaleaf, we believe that everyone has the right to a great career. You do not need a formal education or background - with Alphaleaf, we'll get you to your dream job in a fraction of the time and cost of a traditional program.</p>
+              
               <div><router-link to="/contact" el="btn-2ry">contact us</router-link></div>
             </div>
           </div>
@@ -53,7 +59,7 @@
 
       <div el="section" style="min-height:300px;display:flex;align-items:center;">
         <div el="list">
-            <h3 el>Leadership Team</h3>
+            <h3 el>Testimonials</h3>
             <p el>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae volutpat massa. Sed sit amet metus eget nunc egestas semper. Donec tincidunt luctus eros et euismod. Praesent porttitor accumsan ipsum nec tincidunt. Nullam vitae sem ex. In pretium aliquam nulla, aliquet molestie magna lobortis id. 
             </p>

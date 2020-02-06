@@ -89,8 +89,8 @@
         <div el="section">
             <div el="list-column-alt" style="justify-content:space-around;--gap:30px; padding:30px 0;">
                 <div el="list" style="align-content:center;">
-                    <h3 el="white">Just a few of the top companies that hire SDET...</h3>
-                    <p el="white75">You don't need a college degree to start your career in SDET making $100k/yr</p>
+                    <h3 el="white">Just a few of the top companies that hire SET...</h3>
+                    <p el="white75">You don't need a college degree to start your career in SET making an average of $80k - $120k.</p>
                     <div>
                         <router-link to="/enroll" el="btn">learn more</router-link>
                     </div>
