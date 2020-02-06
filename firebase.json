@@ -12,6 +12,15 @@
     ]
   },
   "hosting": {
+    "headers": [ {
+        // Specifies a CORS header for all font files
+        "source": "**/*.@(js|css)",
+        "headers": [ {
+          "key": "Cache-Control",
+          "value": "max-age=604800" //3600 per hour
+        }]
+      }
+    ],
     "public": "dist",
     "ignore": [
       "firebase.json",
