@@ -52,30 +52,30 @@
             </div>
             <div el="list">
                 <h4 el>Prerequisite Knowledge</h4>
-                <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                <p el>To enroll in our extensive SET training, you do not need any prior programming experience.  However, you will need lots of tenacity and a passion for testing web applications.  Our carefully designed curriculum will give you everything you need to succeed in a real work environment, but the motivation and drive must come from within yourself to land on your dream IT career. </p>
             </div>
             <div el="list">
                 <h4 el>What You'll Learn</h4>
                 <div el="list" class="timeline">
                     <div el="list" style="--gap:8px;">
-                        <h4 el>SCRUM</h4>
+                        <h4 el>Agile</h4>
                         <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
                     </div>
                     <div el="list" style="--gap:8px;">
-                        <h4 el>JAVA Basics</h4>
-                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                        <h4 el>Programming</h4>
+                        <p el>Core of any test automation is solid programming skills and knowledge set.  You will acquire advanced and practical Java programming skills based on carefully crafted curriculum that enhance your professional potential.  At the end of this training, all of our students will be ready for OCA Java examination. </p>
                     </div>
                     <div el="list" style="--gap:8px;">
-                        <h4 el>SQL</h4>
-                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                        <h4 el>Automation</h4>
+                        <p el>Browser automation is the most intimate part of your SET career.  There is where you will put your programming skills in use.  We will guarantee you that you will be learning cutting edge automation skill set utilizing most in-demand tools, more importantly, you will fall in love with browser automation. It is super fun. </p>
                     </div>
                     <div el="list" style="--gap:8px;">
-                        <h4 el>API Testing</h4>
-                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                        <h4 el>Back-end & API Testing</h4>
+                        <p el>Database and API is the backbone of modern web applications. You will learn SQL and API testings by doing.  With an access to industry level cloud database and API services for your training, you will acquire advance skill-sets that is very attractive in the market.</p>
                     </div>
                     <div el="list" style="--gap:8px;">
-                        <h4 el>API Testing</h4>
-                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                        <h4 el>Simulation</h4>
+                        <p el>All of our students go through this mandatory 2 weeks of real-work simulation.  This is where students put their hard earned skill set to use by forming up a development team with actual developers to tackle real software crafting.  You will be amazed how this simulation is close to the real working environment once you land on your IT career. </p>
                     </div>
 
 
