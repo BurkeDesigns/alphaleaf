@@ -15,7 +15,7 @@
 }
 
 [el*='link'] i {
-    color: var(--color-sky);
+    color: inherit;
 }
 
 /*[el|='input']:not([el*='label']) > *[el~='label']*/

@@ -6,7 +6,7 @@ Author(s): Wesley Burke
 Updated: 11/14/2019
 
 ---------------------*/
-@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /*----- Design Standard Variables ------*/
 :root {
@@ -54,7 +54,7 @@ Updated: 11/14/2019
     --color-dusk-5: rgba(227, 28, 61, 0.05);
     --color-sky-5: rgba(0, 104, 255, 0.05);
     /*----- Typography -----*/
-    --font-body: 'Roboto', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
     --font-h1: 42px;
     --font-h2: 34px;
     --font-h3: 24px;
@@ -119,7 +119,7 @@ Updated: 11/14/2019
 body {
     padding: 0;
     margin: 0;
-    font-family: Ubuntu, sans-serif;
+    font-family: var(--font-body);
     /* font-display: swap; */
     font-size: 16px;
 }
@@ -179,7 +179,7 @@ body * {
     outline: none;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-    -webkit-text-fill-color: var(--color);
+    -webkit-text-fill-color: currentColor;
 }
 
 /*----- Element States -----*/
@@ -188,7 +188,6 @@ body * {
     border: var(--hover-border);
     border-bottom: var(--hover-border-bottom);
     color: var(--hover-color);
-    -webkit-text-fill-color: var(--hover-color);
 }
 
 [el]:active {
@@ -196,7 +195,6 @@ body * {
     border: var(--pressed-border);
     border-bottom: var(--pressed-border-bottom);
     color: var(--pressed-color);
-    -webkit-text-fill-color: var(--pressed-color);
 }
 
 [el]:focus {
@@ -204,7 +202,6 @@ body * {
     border: var(--pressed-border);
     border-bottom: var(--pressed-border-bottom);
     color: var(--pressed-color);
-    -webkit-text-fill-color: var(--pressed-color);
 }
 
 [el]:disabled,
@@ -214,7 +211,6 @@ body * {
     border: var(--disabled-border) !important;
     border-bottom: var(--disabled-border-bottom) !important;
     color: var(--disabled-color) !important;
-    -webkit-text-fill-color: var(--disabled-color) !important;
     cursor: no-drop !important;
 }
 

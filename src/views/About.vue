@@ -41,10 +41,10 @@
 
 
       </div>
-      <div style="background-color:var(--color-secondary);">
+      <div style="background-image: linear-gradient(130deg, rgb(41, 46, 51), rgb(82, 92, 101));">
         <div el="section" style="padding:0;">
           <div el="c">
-            <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700">
+            
             <div el="list" style="padding:40px;">
               <h3 el="white">Why Alphaleaf?</h3>
               <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
@@ -52,6 +52,10 @@
               
               <div><router-link to="/contact" el="btn-2ry">contact us</router-link></div>
             </div>
+
+            <img src="https://alphaleaf.imgix.net/assets/img/social-media.jpg?auto=format"> 
+
+
           </div>
         </div>
       </div>
@@ -80,7 +84,7 @@
                 <img src="https://alphaleaf.imgix.net/assets/img/instagram.png?auto=format" alt="" class="socialmedia instagram">
               </div>
             </div>
-            <img src="https://alphaleaf.imgix.net/assets/img/social-media.jpg?auto=format">
+            <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700">
 
           </div>
         </div>

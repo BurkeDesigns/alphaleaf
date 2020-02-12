@@ -1,0 +1,43 @@
+[debug] [2020-02-12T01:46:14.325Z] ----------------------------------------------------------------------
+[debug] [2020-02-12T01:46:14.326Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Wesley Burke\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-02-12T01:46:14.326Z] CLI Version:   7.12.1
+[debug] [2020-02-12T01:46:14.326Z] Platform:      win32
+[debug] [2020-02-12T01:46:14.326Z] Node Version:  v13.6.0
+[debug] [2020-02-12T01:46:14.331Z] Time:          Tue Feb 11 2020 20:46:14 GMT-0500 (Eastern Standard Time)
+[debug] [2020-02-12T01:46:14.331Z] ----------------------------------------------------------------------
+[debug] [2020-02-12T01:46:14.331Z] 
+[debug] [2020-02-12T01:46:14.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-12T01:46:14.343Z] > authorizing via signed-in user
+[debug] [2020-02-12T01:46:14.343Z] [iam] checking project alphaleaf-uat for permissions ["firebase.projects.get"]
+[debug] [2020-02-12T01:46:14.344Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-12T01:46:14.345Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-12T01:46:14.460Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-12T01:46:14.464Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/alphaleaf-uat:testIamPermissions  
+
+[debug] [2020-02-12T01:46:14.567Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-12T01:46:14.568Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alphaleaf-uat  
+ 
+[debug] [2020-02-12T01:46:14.833Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Wesley Burke\Documents\GitHub\alphaleaf'...
+[info] 
+[debug] [2020-02-12T01:46:14.836Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/alphaleaf-uat/webApps/-/config  
+ 
+[debug] [2020-02-12T01:46:15.441Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "13"
+[info] +  functions: Emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Wesley Burke\Documents\GitHub\alphaleaf\functions" for Cloud Functions...
+[debug] [2020-02-12T01:46:16.352Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-12T01:46:16.353Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-12T01:46:16.353Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-12T01:46:16.353Z] [worker-~diagnostic~-7b995e77-f414-4011-82e1-5b65e17dc264]: Assigning socketPath: \\?\pipe\C:\Users\Wesley Burke\Documents\GitHub\alphaleaf\functions\11932
+[debug] [2020-02-12T01:46:16.353Z] [worker-~diagnostic~-7b995e77-f414-4011-82e1-5b65e17dc264]: BUSY
+[debug] [2020-02-12T01:46:16.631Z] [runtime-status] [11932] Functions runtime initialized. {"cwd":"C:\\Users\\Wesley Burke\\Documents\\GitHub\\alphaleaf\\functions","node_version":"13.6.0"}
+[debug] [2020-02-12T01:46:16.632Z] [runtime-status] [11932] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] !  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-12T01:46:16.654Z] [worker-~diagnostic~-7b995e77-f414-4011-82e1-5b65e17dc264]: exited
+[debug] [2020-02-12T01:46:16.654Z] [worker-~diagnostic~-7b995e77-f414-4011-82e1-5b65e17dc264]: FINISHED

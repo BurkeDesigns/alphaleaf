@@ -5,7 +5,7 @@
             <div el="list-column-alt">
                 <div el="list">
                     <h3 el>Software Engineer in Test</h3>
-                    <p el>Throughout our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks.</p>
+                    <p el>Through our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks that work extremely well with the Continuous Integration pipeline.  Have no clue what that means?  No worries, with our training,  you will own these employable skills. </p>
                     <div>
                         <router-link to="/enroll" el="btn">enroll</router-link>
                     </div>
@@ -51,31 +51,31 @@
                 </div>
             </div>
             <div el="list">
-                <h4 el>Prerequisite Knowledge</h4>
-                <p el>To enroll in our extensive SET training, you do not need any prior programming experience.  However, you will need lots of tenacity and a passion for testing web applications.  Our carefully designed curriculum will give you everything you need to succeed in a real work environment, but the motivation and drive must come from within yourself to land on your dream IT career. </p>
+                <h4 el>Prerequisites</h4>
+                <p el>To enroll in our extensive SET training, prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in a real work environment, but the motivation and drive must come from within yourself to land your dream IT career.</p>
             </div>
-            <div el="list">
-                <h4 el>What You'll Learn</h4>
-                <div el="list" class="timeline">
+            <div el="list" style="--gap:30px;">
+                <h3 el>What You Will Learn</h3>
+                <div el="list" class="timeline" style="--gap:30px;">
                     <div el="list" style="--gap:8px;">
                         <h4 el>Agile</h4>
-                        <p el>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat. Nulla facilisi. Mauris tincidunt massa vitae urna efficitur eleifend. Phasellus quam urna, rutrum ac vestibulum eget, mattis id tortor. Aliquam porta laoreet tincidunt. </p>
+                        <p el>You will learn Agile by experiencing what it's like to deliver software products using Scrum (the most popular Software Development Methodology). Every student is trained to work in a series of Sprints as a Software Engineer in Test; Simulating real-life problem solving which they'll use extensively in their future job.</p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Programming</h4>
-                        <p el>Core of any test automation is solid programming skills and knowledge set.  You will acquire advanced and practical Java programming skills based on carefully crafted curriculum that enhance your professional potential.  At the end of this training, all of our students will be ready for OCA Java examination. </p>
+                        <p el>Solid programming skills and knowledge are the core of test automation. You will acquire advanced and practical Java programming skills based on carefully crafted curriculum which enhances your professional potential. At the end of this training, you will be ready for an OCA Java examination.</p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Automation</h4>
-                        <p el>Browser automation is the most intimate part of your SET career.  There is where you will put your programming skills in use.  We will guarantee you that you will be learning cutting edge automation skill set utilizing most in-demand tools, more importantly, you will fall in love with browser automation. It is super fun. </p>
+                        <p el>Browser automation is the most intimate part of your SET career. This is where you'll put your programming skills to the test. We guarantee you that you'll learn cutting edge automation skills utilizing in-demand tools. More importantly, you'll fall in love with browser automation. It's super fun.</p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Back-end & API Testing</h4>
-                        <p el>Database and API is the backbone of modern web applications. You will learn SQL and API testings by doing.  With an access to industry level cloud database and API services for your training, you will acquire advance skill-sets that is very attractive in the market.</p>
+                        <p el>Databases and APIs are the backbone of modern web applications. You'll learn SQL and API testing by doing. With access to industry level cloud databases and API services for your training, you'll acquire advanced in-demand skill-sets.</p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Simulation</h4>
-                        <p el>All of our students go through this mandatory 2 weeks of real-work simulation.  This is where students put their hard earned skill set to use by forming up a development team with actual developers to tackle real software crafting.  You will be amazed how this simulation is close to the real working environment once you land on your IT career. </p>
+                        <p el>Every student goes through a mandatory 2 week real-world simulation. This is where you'll put your hard earned skills to use by forming a development team with actual developers to tackle real software testing.</p>
                     </div>
 
 
@@ -112,26 +112,27 @@
     position: relative;
 }
 .timeline > *:not(:last-child):after{
-    content: '';
+   content: '';
     width: 2px;
-    background-color: var(--color-secondary);
+    background-color: rgba(0,0,0,0.15);
     left: 0;
-    top: 28px;
-    height: 80%;
+    top: 8px;
+    height: calc(100% + 30px);
     position: absolute;
 }
 .timeline > *:before{
-    content:'';
-    width:15px;
-    height:15px;
+    content: '';
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
-    border:2px solid var(--color-secondary);
-    background-color:var(--color-secondary);
-    left:0;
-    top:2px;
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-secondary);
+    left: 0;
+    top: 8px;
     position: absolute;
+    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    z-index:1;
+    z-index: 1;
 }
 .col3-wrap{
     display: grid;

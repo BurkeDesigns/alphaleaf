@@ -123,7 +123,7 @@ export default {
 }
 
 [el="nav"] .router-link-exact-active{
-    color:#335eea !important;
+    color:var(--color-secondary) !important;
     -webkit-text-fill-color: currentColor;
 }
 .logo-symbol {
@@ -134,7 +134,7 @@ export default {
     fill: #506690;
 }
 .icon{
-    color:#0068ff;
+    color:var(--color-secondary);
     -webkit-text-fill-color: currentColor;
 }
 .menu{

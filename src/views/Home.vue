@@ -201,27 +201,27 @@ export default {
             {
                 label:'When can I start?',
                 expand: false,
-                content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna mi, scelerisque interdum sagittis a, accumsan a ipsum. Morbi ullamcorper sollicitudin imperdiet. Nam vitae pharetra nisi. Nam commodo vulputate lectus sed pulvinar. Aliquam nec venenatis erat.'
+                content: 'Our next batch starts March 1st, 2020. Make sure you sign up before this date.'
             },
             {
                 label:"I don't have an IT background, can I do it?",
                 expand: false,
-                content: 'Of course you can! We believe in your future...?'
+                content: 'Of course you can! We designed our curriculum so that anyone with the zeal to learn can aquire employable IT skills.'
             },
             {
                 label:"Will I be certified?",
                 expand: false,
-                content: 'At the end of our course you will...'
+                content: 'If you excel in our training, you should have no problem obtaining Agile Scrum Certification, Oracle Certified Associate, and Docker Associate Certification. '
             },
             {
                 label:"Does Alphaleaf offer career services?",
                 expand: false,
-                content: 'Yes, Alphaleaf will provide...'
+                content: 'Yes, we will provide every successful student with comprehensive career services once they land their dream IT job.'
             },
             {
                 label:"What do I need to get started?",
                 expand: false,
-                content: 'We require all students to have a laptop.'
+                content: 'You need a working laptop, tenacity, and a passion for testing/breaking web applications.'
             },
         ]
       }
