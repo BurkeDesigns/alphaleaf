@@ -52,7 +52,7 @@
 }
 
 [el|='btn'][el*='p2'] {
-    --control-color: var(--color-mist);
+    --control-color: white;
     --control-hover-color: #2864A2;
     --control-pressed-color: var(--color-sea);
 }

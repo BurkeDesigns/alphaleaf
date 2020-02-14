@@ -15,21 +15,21 @@
                           <h4 el style="--color:var(--color-65);">or send us an email</h4>
                           <div class="lg-bold">info@alphaleaf.com</div>
                       </div>
+                      
                   </div>
-                  <div el="list-column">
+                  <div el="input-list">
+                    <div el="list-column" style="grid-template-columns: 1fr 1fr;">
 
-                        <div el="input-list">
-                          <label for="fname" el="input">
-                              <input type="text" id="fname" placeholder="First Name" el="stretch">
-                          </label>
-                      </div>
+                            
+                        <label for="fname" el="input">
+                            <input type="text" id="fname" placeholder="First Name" el="stretch">
+                        </label>
 
-                      <div el="input-list">
-                          <label for="lname" el="input">
-                              <input type="text" id="lname" placeholder="Last Name" el="stretch">
-                          </label>
-                      </div>
+                        <label for="lname" el="input">
+                            <input type="text" id="lname" placeholder="Last Name" el="stretch">
+                        </label>
 
+                    </div>
                   </div>
 
                   <div el="input-list" style="--gap:30px;">
@@ -48,7 +48,7 @@
                       </label> -->
                   </div>
 
-                  <router-link to="/contact" el="btn stretch">submit request</router-link>
+                  <router-link to="/contact" el="btn stretch">send message</router-link>
 
                   
 
@@ -58,8 +58,19 @@
             </div>
          
 
-        <div el="section">
-            <img src="../assets/img/maps.png" alt="location" el="stretch" class="map">
+        <div el="section" style="padding:30px;">
+            <div el="list">
+                <h4 el style="--color:var(--color-black);">Come visit us</h4>
+                <div el="list" style="--gap:4px;">
+                    <a href="http://maps.google.com/?q=12750 Fair Lakes Cir, Fairfax, VA 22033" el="link" target="_blank">12750 Fair Lakes Cir, Fairfax, VA 22033</a>
+                    <p el>Mon, Tue, Wed: 5pm - 10pm</p>
+                    <p el>Sat: 10am - 4pm</p>
+                </div>
+                <a href="http://maps.google.com/?q=12750 Fair Lakes Cir, Fairfax, VA 22033" target="_blank">
+                    <img src="../assets/img/maps.png" alt="location" el="stretch" class="map">
+                </a>
+            </div>
+            
         </div>
 
           
@@ -117,7 +128,7 @@ textarea{
 
 .form{
   /* background-color: var(--color-secondary); */
-    padding: 30px;
+    padding: 10px;
     /* border-radius: 8px; */
     position:relative;
     margin:auto;
