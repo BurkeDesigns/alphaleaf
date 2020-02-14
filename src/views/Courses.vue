@@ -5,7 +5,7 @@
             <div el="list-column-alt" style="--gap:45px;">
                 <div el="list">
                     <h3 el>Software Engineer in Test</h3>
-                    <p el>Through our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks that work extremely well with the Continuous Integration pipeline.  Have no clue what that means?  No worries, with our training,  you will own these employable skills. </p>
+                    <p el>Learn how to design, implement, and maintain sophisticated test automation frameworks that work extremely well with the Continuous Integration pipeline.  Have no clue what that means?  No worries, with our training,  you will own these employable skills. </p>
                     <div class="col3-wrap" style="padding: 30px 0;">
                         <div el="list-column">
                             <div>
@@ -53,7 +53,7 @@
             </div>
             <div el="list">
                 <h4 el>Prerequisites</h4>
-                <p el>To enroll in our extensive SET training, prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in a real work environment, but the motivation and drive must come from within yourself to land your dream IT career.</p>
+                <p el>Prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in your future job, but you must be motivated to land your dream IT career.</p>
             </div>
             <div el="list-column-alt" style="--gap: 30px;">
                 <div el="list" style="--gap:30px;">
@@ -61,23 +61,34 @@
                 <div el="list" class="timeline" style="--gap:30px;">
                     <div el="list" style="--gap:8px;">
                         <h4 el>Agile</h4>
-                        <p el>You will learn Agile by experiencing what it's like to deliver software products using Scrum (the most popular Software Development Methodology). Every student is trained to work in a series of Sprints as a Software Engineer in Test; Simulating real-life problem solving which they'll use extensively in their future job.</p>
+                        <p el>
+Experience Agile software product delivery using Scrum. Every student is trained as a Software Engineer in Test simulating real-life problem solving.                            </p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Programming</h4>
-                        <p el>Solid programming skills and knowledge are the core of test automation. You will acquire advanced and practical Java programming skills based on carefully crafted curriculum which enhances your professional potential. At the end of this training, you will be ready for an OCA Java examination.</p>
+                        <p el>
+                            Acquire advanced and practical Java programming skills based on carefully crafted curriculum that enhances your professional potential. At the end of this training, you will be ready for an Oracle Java Certification.
+                            </p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Automation</h4>
-                        <p el>Browser automation is the most intimate part of your SET career. This is where you'll put your programming skills to the test. We guarantee you that you'll learn cutting edge automation skills utilizing in-demand tools. More importantly, you'll fall in love with browser automation. It's super fun.</p>
+                        <p el>
+Learn cutting edge test automation techniques by utilizing advanced programming knowledge. We guarantee that you will fall in love with browser automation. It's super fun.                            </p>
                     </div>
                     <div el="list" style="--gap:8px;">
                         <h4 el>Back-end & API Testing</h4>
-                        <p el>Databases and APIs are the backbone of modern web applications. You'll learn SQL and API testing by doing. With access to industry level cloud databases and API services for your training, you'll acquire advanced in-demand skill-sets.</p>
+                        <p el>
+With access to industry level cloud databases and API services, you will acquire advanced in-demand SQL and API testing skills.                            </p>
                     </div>
                     <div el="list" style="--gap:8px;">
-                        <h4 el>Simulation</h4>
-                        <p el>Every student goes through a mandatory 2 week real-world simulation. This is where you'll put your hard earned skills to use by forming a development team with actual developers to tackle real software testing.</p>
+                        <h4 el>Continuous Testing</h4>
+                        <p el>
+Design the most efficient test automation framework and run tests as a part of the software delivery pipeline.                             </p>
+                    </div>
+                    <div el="list" style="--gap:8px;">
+                        <h4 el>Work Simulation</h4>
+                        <p el>
+Put your hard earned skills to use by forming a development team with actual developers to tackle real software testing.                             </p>
                     </div>
 
 
@@ -85,11 +96,12 @@
                 </div>
             </div>
             <div el="list" style="--gap:100px;">
-                <div el="list" style="padding:30px;--bg-color:#f1f1f1;border-radius:4px;max-width:300px;">
-                    <i class="material-icons">trending_up</i>
-                    <p el>According to Indeed, SET makes <br><b>$100,593</b> per year in the United States</p>
+                <div el="list" style="padding:30px;--bg-color:#f1f1f1;border-radius:4px;max-width:350px;">
+                    <i class="material-icons">layers</i>
+                    <h4 el>Tech Stack</h4>
+                    <p el>Git, Selenium, Java, Microsoft Teams, JIRA, TestNG</p>
                 </div>
-                <div el="list shadow-sm" style="padding:30px;--bg-color:white;border-top:5px solid var(--color-secondary);border-radius:4px;max-width:300px;">
+                <div el="list shadow-sm" style="padding:30px;--bg-color:white;border-top:5px solid var(--color-secondary);border-radius:4px;max-width:350px;">
                     <i class="material-icons">trending_up</i>
                     <p el>According to Indeed, SET makes <br><b>$100,593</b> per year in the United States</p>
                 </div>
