@@ -43,7 +43,7 @@
                                 </div>
                             </div>
                             
-                            <nav el="nav">
+                            <nav el="nav" @click="menuState(false)">
                                 <router-link to="/" v-if="$route.name != 'home'">Home</router-link>
                                 <router-link to="/courses">Courses</router-link>
                                 <router-link to="/about">About</router-link>
