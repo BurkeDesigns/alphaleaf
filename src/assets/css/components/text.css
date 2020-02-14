@@ -76,3 +76,6 @@ hr[el]{
     border:0;
     margin:16px 0;
 }
+[el~=center-txt]{
+    text-align: center;
+}

@@ -21,12 +21,12 @@
     --border-radius: 0px;
     --display: flex;
     --transition: 0.2s;
-    --color:#fff;
+    --color:black;
     /* --hover-color:black; */
 
-    --border-bottom: 1px solid hsla(0,0%,100%,0.5);
-    --hover-border-bottom: 1px solid hsla(0,0%,100%,1);
-    --pressed-border-bottom: 1px solid hsla(0,0%,100%,1);
+    --border-bottom: 1px solid hsla(0,0%,0%,0.5);
+    --hover-border-bottom: 1px solid hsla(0,0%,0%,1);
+    --pressed-border-bottom: 1px solid hsla(0,0%,0%,1);
     align-items: center;
     min-width:100px;
 }
@@ -40,9 +40,9 @@
     --color:#fff;
     /* --hover-color:black; */
 
-    --border: 1px solid hsla(0,0%,100%,0.5);
-    --hover-border: 1px solid hsla(0,0%,100%,1);
-    --pressed-border: 1px solid hsla(0,0%,100%,1);
+    --border: 1px solid hsla(0,0%,0%,0.5);
+    --hover-border: 1px solid hsla(0,0%,0%,1);
+    --pressed-border: 1px solid hsla(0,0%,0%,1);
     min-width:50px;
 }
 [el*='input-error'] textarea{
@@ -59,7 +59,7 @@
 [el*='input-list']{
     --display:grid;
     --flow:row;
-    grid-gap: 15px;
+    grid-gap: var(--gap, 15px);
     grid-auto-flow: var(--flow);
 }
 [el*='input-list'] label:not([el~='select']):not([el|='input']){

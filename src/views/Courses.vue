@@ -1,60 +1,62 @@
 <template>
   <div>
     <div el="section">
-        <div el="list" style="padding:30px;--gap:45px;">
-            <div el="list-column-alt">
+        <div el="list" style="padding:60px 10px;--gap:45px;">
+            <div el="list-column-alt" style="--gap:45px;">
                 <div el="list">
                     <h3 el>Software Engineer in Test</h3>
                     <p el>Through our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks that work extremely well with the Continuous Integration pipeline.  Have no clue what that means?  No worries, with our training,  you will own these employable skills. </p>
+                    <div class="col3-wrap" style="padding: 30px 0;">
+                        <div el="list-column">
+                            <div>
+                                <i class="material-icons">access_time</i>
+                            </div>
+                            <div el="list" style="text-align:left;--gap:8px;">
+                                <p el="bold" style="--color:var(--color-dark);">Estimated Time</p>
+                                <p el>5 months</p>
+                            </div>
+                        </div>
+                        <div el="list-column">
+                            <div>
+                                <i class="material-icons">calendar_today</i>
+                            </div>
+                            <div el="list" style="text-align:left;--gap:8px;">
+                                <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
+                                <p el>March 1, 2020 @7pm</p>
+                            </div>
+                        </div>
+                        <div el="list-column">
+                            <div>
+                                <i class="material-icons">info</i>
+                            </div>
+                            <div el="list" style="text-align:left;--gap:8px;">
+                                <p el="bold" style="--color:var(--color-dark);">Prior programming experience not required</p>
+                            </div>
+                        </div>
+
+
+                </div>
                     <div>
                         <router-link to="/enroll" el="btn">enroll</router-link>
                     </div>
                     <hr el>
-                    <div class="col3-wrap" style="padding-bottom: 30px;">
-                    <div el="list-column">
-                        <div>
-                            <i class="material-icons">access_time</i>
-                        </div>
-                        <div el="list" style="text-align:left;--gap:8px;">
-                            <p el="bold" style="--color:var(--color-dark);">Estimated Time</p>
-                            <p el>5 months</p>
-                        </div>
-                    </div>
-                    <div el="list-column">
-                        <div>
-                            <i class="material-icons">calendar_today</i>
-                        </div>
-                        <div el="list" style="text-align:left;--gap:8px;">
-                            <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
-                            <p el>March 1, 2020 @7pm</p>
-                        </div>
-                    </div>
-                    <div el="list-column">
-                        <div>
-                            <i class="material-icons">info</i>
-                        </div>
-                        <div el="list" style="text-align:left;--gap:8px;">
-                            <p el="bold" style="--color:var(--color-dark);">Prior programming experience not required</p>
-                        </div>
-                    </div>
-
-
-                </div>
+                    
 
 
 
 
 
                 </div>
-                <div>
-                    <img src="https://alphaleaf.imgix.net/assets/img/coding-help.jpg?auto=format&w=400&fit=min" alt="coding" style="border-radius:8px;" class="courseImg">
+                <div el="shadow-sm">
+                    <img src="https://alphaleaf.imgix.net/assets/img/team_coding.jpeg?auto=format&w=400&fit=min" alt="coding" style="border-radius:8px;" class="courseImg">
                 </div>
             </div>
             <div el="list">
                 <h4 el>Prerequisites</h4>
                 <p el>To enroll in our extensive SET training, prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in a real work environment, but the motivation and drive must come from within yourself to land your dream IT career.</p>
             </div>
-            <div el="list" style="--gap:30px;">
+            <div el="list-column-alt" style="--gap: 30px;">
+                <div el="list" style="--gap:30px;">
                 <h3 el>What You Will Learn</h3>
                 <div el="list" class="timeline" style="--gap:30px;">
                     <div el="list" style="--gap:8px;">
@@ -81,6 +83,17 @@
 
 
                 </div>
+            </div>
+            <div el="list" style="--gap:100px;">
+                <div el="list" style="padding:30px;--bg-color:#f1f1f1;border-radius:4px;max-width:300px;">
+                    <i class="material-icons">trending_up</i>
+                    <p el>According to Indeed, SET makes <br><b>$100,593</b> per year in the United States</p>
+                </div>
+                <div el="list shadow-sm" style="padding:30px;--bg-color:white;border-top:5px solid var(--color-secondary);border-radius:4px;max-width:300px;">
+                    <i class="material-icons">trending_up</i>
+                    <p el>According to Indeed, SET makes <br><b>$100,593</b> per year in the United States</p>
+                </div>
+            </div>
             </div>
         </div>
         
@@ -151,15 +164,17 @@
     justify-content: center;
 }
 .courseImg{
-    width:100%;
-    max-width:400px;
+    width:420px;
 }
 
+@media(max-width:1180px){
+    .col3-wrap{
+        /* grid-template-columns: repeat(2, 1fr); */
+         grid-template-columns: 1fr;
+    }
+}
 @media(max-width:800px){
     
-    .col3-wrap{
-        grid-template-columns: repeat(2, 1fr);
-    }
     .courseImg{
         width:100%;
     }
