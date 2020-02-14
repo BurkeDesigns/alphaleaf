@@ -97,9 +97,25 @@ Put your hard earned skills to use by forming a development team with actual dev
             </div>
             <div el="list" style="--gap:100px;">
                 <div el="list" style="padding:30px;--bg-color:#f1f1f1;border-radius:4px;max-width:350px;">
-                    <i class="material-icons">layers</i>
-                    <h4 el>Tech Stack</h4>
-                    <p el>Git, Selenium, Java, Microsoft Teams, JIRA, TestNG</p>
+                    <div el="list-column">
+                        <i class="material-icons">layers</i>
+                        <h4 el>Tech Stack</h4>
+                    </div>
+                    <!-- <p el>Git, Selenium, Java, Microsoft Teams, JIRA, TestNG</p> -->
+                    <div el="list" style="--gap: 4px;">
+                        <p el>SDLC/Manual Testing</p>
+                        <p el>HTML/CSS/JavaScript</p>
+                        <p el>Java Programming</p>
+                        <p el>Selenium WebDriver</p>
+                        <!-- <p el>Gradle/Maven</p> -->
+                        <p el>Cucumber BDD</p>
+                        <p el>REST Assured/Karate</p>
+                        <p el>Gauge framework</p>
+                        <p el>Jenkins</p>
+                        <p el>Docker/kubernetes</p>
+                        <p el>Sitespeed.io</p>
+                        <p el>ReportPortal.io</p>
+                    </div>
                 </div>
                 <div el="list shadow-sm" style="padding:30px;--bg-color:white;border-top:5px solid var(--color-secondary);border-radius:4px;max-width:350px;">
                     <i class="material-icons">trending_up</i>
