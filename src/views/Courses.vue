@@ -55,40 +55,114 @@
                 <h4 el>Prerequisites</h4>
                 <p el>Prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in your future job, but you must be motivated to land your dream IT career.</p>
             </div>
-            <div el="list-column-alt" style="--gap: 30px;">
+            <div el="list-column-alt" style="--gap: 45px;">
                 <div el="list" style="--gap:30px;">
                 <h3 el>What You Will Learn</h3>
-                <div el="list" class="timeline" style="--gap:30px;">
-                    <div el="list" style="--gap:8px;">
+                <div el="list" class="timeline" style="--gap:40px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Agile</h4>
                         <p el>
-Experience Agile software product delivery using Scrum. Every student is trained as a Software Engineer in Test simulating real-life problem solving.                            </p>
+                            Experience Agile software product delivery using Scrum. Every student is trained as a Software Engineer in Test simulating real-life problem solving. </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>scrum framework</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>IT INFRASTRUCTURE</span>
+                            </div>
+                        </div>
+                        <!-- <div el="list-column" style="--color:var(--color-secondary);">
+                                        <i class="material-icons">check_circle_outline</i>
+                                        <span>Java, TestNG</span>
+                                    </div> -->
                     </div>
-                    <div el="list" style="--gap:8px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Programming</h4>
                         <p el>
                             Acquire advanced and practical Java programming skills based on carefully crafted curriculum that enhances your professional potential. At the end of this training, you will be ready for an Oracle Java Certification.
-                            </p>
+                        </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>GIT & GITHUB</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>ADVANCED JAVA PROGRAMMING</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>ORACLE CERTIFICATION PREP</span>
+                            </div>
+                        </div>
+
                     </div>
-                    <div el="list" style="--gap:8px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Automation</h4>
                         <p el>
-Learn cutting edge test automation techniques by utilizing advanced programming knowledge. We guarantee that you will fall in love with browser automation. It's super fun.                            </p>
+                            Learn cutting edge test automation techniques by utilizing advanced programming knowledge. We guarantee that you will fall in love with browser automation. It's super fun. </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>browser automation</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>UNIT TESTING FRAMEWORKS</span>
+                            </div>
+                        </div>
                     </div>
-                    <div el="list" style="--gap:8px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Back-end & API Testing</h4>
                         <p el>
-With access to industry level cloud databases and API services, you will acquire advanced in-demand SQL and API testing skills.                            </p>
+                            With access to industry level cloud databases and API services, you will acquire advanced in-demand SQL and API testing skills. </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>SQL & DATABASE SYSTEMS</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>API FUNDAMENTALS</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>API AUTOMATION</span>
+                            </div>
+                        </div>
                     </div>
-                    <div el="list" style="--gap:8px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Continuous Testing</h4>
                         <p el>
-Design the most efficient test automation framework and run tests as a part of the software delivery pipeline.                             </p>
+                            Design the most efficient test automation framework and run tests as a part of the software delivery pipeline. </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>TEST AUTOMATION FRAMEWORKS & DEVOPS</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>UI PERFORMANCE MEASUREMENT</span>
+                            </div>
+                        </div>
+
                     </div>
-                    <div el="list" style="--gap:8px;">
+                    <div el="list" style="--gap:15px;">
                         <h4 el>Work Simulation</h4>
                         <p el>
-Put your hard earned skills to use by forming a development team with actual developers to tackle real software testing.                             </p>
+                            Put your hard earned skills to use by forming a development team with actual developers to tackle real software testing. </p>
+                        <div el="list" style="--gap:4px;">
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>2 WEEKS AS SET</span>
+                            </div>
+                            <div el="list-column" class="icon-list">
+                                <img src="../assets/icons/clipboard2.svg" alt="icon">
+                                <span>INTERVIEW PREP</span>
+                            </div>
+                        </div>
                     </div>
 
 
@@ -145,11 +219,20 @@ Put your hard earned skills to use by forming a development team with actual dev
   </div>
 </template>
 <style scoped>
+.icon-list{
+   --color:var(--color-secondary);
+   --gap:8px;
+   align-items:center;
+   text-transform: uppercase;
+}
+.icon-list img{
+    height:25px;
+}
 .timeline{
-    padding-left: 10px;
+    padding-left: 8px;
 }
 .timeline > *{
-    padding-left: 20px;
+    padding-left: 40px;
     position: relative;
 }
 .timeline > *:not(:last-child):after{
@@ -158,7 +241,7 @@ Put your hard earned skills to use by forming a development team with actual dev
     background-color: rgba(0,0,0,0.15);
     left: 0;
     top: 8px;
-    height: calc(100% + 30px);
+    height: calc(100% + 40px);
     position: absolute;
 }
 .timeline > *:before{
