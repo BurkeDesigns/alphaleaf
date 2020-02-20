@@ -133,7 +133,7 @@
                     <h3 el>Alphaleaf</h3>
                     <p el>Costs $5,000</p>
                     <p el>5 month training</p>
-                    <p el>Project Based</p>
+                    <p el>On the job experience</p>
                     <p el>Senior Engineer Instructors</p>
 
                 </div>
@@ -144,7 +144,7 @@
                     <h3 el>Others</h3>
                     <p el>Costs $12,000+</p>
                     <p el>7+ month training</p>
-                    <p el>Classroom Based</p>
+                    <p el>Student experience</p>
                     <p el>Alumni Instructors</p>
                 </div>
             </div>
@@ -156,7 +156,7 @@
             <div el="list" style="text-align:center;--gap:30px;">
                 <div el="list">
                     <h3 el="white">Ready to Start?</h3>
-                    <p el="white75">Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
+                    <p el="white75">No prior experience required. Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
                     <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
                 </div>
             </div>
