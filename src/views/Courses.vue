@@ -53,7 +53,7 @@
             </div>
             <div el="list">
                 <h4 el>Prerequisites</h4>
-                <p el>Prior programming experience isn't required. However, you'll need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in your future job, but you must be motivated to land your dream IT career.</p>
+                <p el>Prior programming experience is not required. However, you will need tenacity and a passion for testing web applications. Our carefully designed curriculum will give you everything you need to succeed in your future job, but you must be motivated to land your dream IT career.</p>
             </div>
             <div el="list-column-alt" style="--gap: 45px;">
                 <div el="list" style="--gap:30px;">
@@ -140,7 +140,7 @@
                         <div el="list" style="--gap:4px;">
                             <div el="list-column" class="icon-list">
                                 <img src="../assets/icons/clipboard2.svg" alt="icon">
-                                <span>TEST AUTOMATION FRAMEWORKS & DEVOPS</span>
+                                <span>TEST AUTOMATION in DEVOPS</span>
                             </div>
                             <div el="list-column" class="icon-list">
                                 <img src="../assets/icons/clipboard2.svg" alt="icon">

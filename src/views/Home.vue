@@ -6,17 +6,24 @@
     <div el="section">
         <div>
             <div el="list" class="jobSearch">
-                <h3 el="white">Learn SET & earn an average of $80k - $120k after 5 months without a degree!</h3>
-                <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p>
-                <label for="jobInput">
+                <h3 el="white">Become a Software Engineer in Test</h3>
+                <!-- <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p> -->
+                <!-- <label for="jobInput">
                     <input type="text" id="jobInput" placeholder="Job opportunities near me...">
-                </label>
+                </label> -->
                 <div class="jobResults" el="list">
                     <div el="list-column">
-                        <i class="material-icons">work_outline</i>
+                        <i class="material-icons">monetization_on</i>
                         <div>
-                            <div>4,250+ Jobs</div>
-                            <div>Found in VA</div>
+                            <div>Earn $80-120k</div>
+                            <div>On average</div>
+                        </div>
+                    </div>
+                    <div el="list-column">
+                        <i class="material-icons">work</i>
+                        <div>
+                            <div>5,553+ Jobs</div>
+                            <div>Available in VA</div>
                         </div>
                     </div>
 
@@ -24,13 +31,7 @@
                         <i class="material-icons">business</i>
                         <div>
                             <div>Fortune 500 Companies</div>
-                            <div>Are hiring in VA</div>
-                        </div>
-                    </div>
-                    <div style="text-align:right;">
-                        <div el="link-icon" style="--color:#fff;">
-                            See job openings
-                            <i class="material-icons">arrow_forward</i>
+                            <div>Are hiring</div>
                         </div>
                     </div>
                     
@@ -42,16 +43,16 @@
     <div el="section">
         
         <div el="list-column-alt" class="banner">
-            <img src="https://alphaleaf.imgix.net/assets/img/code-glasses.jpeg?auto=format&fit=min&w=400" alt="coding" class="w250 mobile-img-full">
+            <img src="https://alphaleaf.imgix.net/assets/img/session.png?auto=format&fit=min&w=500" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
-                    <div el="status-sucess">JOIN OUR FREE SESSION</div>
+                    <div el="status-sucess">STARTS IN 2 DAYS</div>
                 </div>
-                <h3 el>Become a Software Engineer in Test this Year!</h3>
-                <p el>Enroll today and start working in the field in as little as 5 months!</p>
+                <h3 el>Join our FREE training session!</h3>
+                <p el>We offer a free training session every Sunday. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
             </div>
             <div class="card-content" style="position:relative;">
-                <router-link to="/courses" el="btn-2ry">learn more</router-link>
+                <router-link to="/enroll" el="btn-2ry">register now</router-link>
             </div>
             
         </div>
@@ -63,7 +64,8 @@
             <div class="col3-wrap">
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">laptop</i>
+                        <img src="../assets/icons/online.svg" alt="icon">
+                        <!-- <i class="material-icons">laptop</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Online & On-Site Courses</h4>
@@ -72,34 +74,38 @@
                 </div>
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">build</i>
+                        <img src="../assets/icons/tools.svg" alt="icon">
+                        <!-- <i class="material-icons">build</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Industry Standard Tools</h4>
-                        <p el>You'll use the industry standard tools to experience a real work environment.</p>
+                        <p el>You will use the industry standard tools to experience a real work environment.</p>
                     </div>
                 </div>
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">business</i>
+                        <img src="../assets/icons/project.svg" alt="icon">
+                        <!-- <i class="material-icons">business</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Project Based Environment</h4>
-                        <p el>You'll work on teams and report to real developers that will fix the bugs you find.</p>
+                        <p el>You will work on teams and report to real developers that will fix the bugs you find.</p>
                     </div>
                 </div>
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">done_all</i>
+                        <img src="../assets/icons/learning.svg" alt="icon">
+                        <!-- <i class="material-icons">done_all</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>No-fluff Learning</h4>
-                        <p el>Learn the skills you need for the job, not skills you'll never use</p>
+                        <p el>Learn the skills you need for the job, not skills you will never use</p>
                     </div>
                 </div>
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">work_outline</i>
+                        <img src="../assets/icons/support.svg" alt="icon">
+                        <!-- <i class="material-icons">work_outline</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Employment Assistance</h4>
@@ -108,7 +114,8 @@
                 </div>
                 <div el="list-column">
                     <div>
-                        <i class="material-icons">access_time</i>
+                        <img src="../assets/icons/idea.svg" alt="icon">
+                        <!-- <i class="material-icons">access_time</i> -->
                     </div>
                     <div el="list" style="text-align:left;">
                         <h4 el>Real World Experience</h4>
@@ -118,14 +125,35 @@
             </div>
         </div>
     </div>
+
+    <div style="background-color:var(--color-light);min-height:400px;display:flex;align-items:center;">
+        <div el="section">
+            <div el="list-column-alt" style="text-align:center;--gap:0px; justify-content:center;">
+                <div el="list" style="padding: 60px 30px;">
+                    <h3 el>Alphaleaf</h3>
+                    <p el>Costs $5,000</p>
+                    <p el>5 month training</p>
+                    <p el>Project Based</p>
+                    <p el>Senior Engineer Instructors</p>
+
+                </div>
+                <div style="display:flex;align-items:center;justify-content:center;">
+                    <i class="material-icons">thumbs_up_down</i>
+                </div>
+                <div el="list" style="padding: 60px 30px;">
+                    <h3 el>Others</h3>
+                    <p el>Costs $12,000+</p>
+                    <p el>7+ month training</p>
+                    <p el>Classroom Based</p>
+                    <p el>Alumni Instructors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div style="background-color:var(--color-secondary);min-height:400px;display:flex;align-items:center;">
         <div el="section" style="padding: 60px 30px;">
-            <div el="list" style="text-align:left;--gap:30px;">
-                <div el="list">
-                    <h3 el="white">Why Alphaleaf?</h3>
-                    <p el="white75">Ordinary IT bootcamps can cost over $20,000 only for you to work an entry level job. Alphaleaf’s unique approach teaches you the critical tech skills that companies are hiring for today. From day one, you are immersed in a real-world project environment where you learn employable, in-demand skills that top companies want.</p>
-                    <p el="white75">At Alphaleaf, we believe that everyone has the right to a great career. You do not need a formal education or background - with Alphaleaf, we'll get you to your dream job in a fraction of the time and cost of a traditional program. </p>
-                </div>
+            <div el="list" style="text-align:center;--gap:30px;">
                 <div el="list">
                     <h3 el="white">Ready to Start?</h3>
                     <p el="white75">Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
@@ -146,7 +174,7 @@
             <img src="https://alphaleaf.imgix.net/assets/img/person-looking-at-computer.jpg?auto=format&fit=min&w=700" alt="coding">
             <div el="list" style="padding:40px;">
               <h3 el>Software Engineer in Test (SET)</h3>
-              <p el>Throughout our extensive SET training program, you'll learn how to design, implement, and maintain sophisticated test automation frameworks. </p>
+              <p el>Throughout our extensive SET training program, you will learn how to design, implement, and maintain sophisticated test automation frameworks. </p>
               <div><router-link to="/contact" el="btn">contact us</router-link></div>
             </div>
           </div>
@@ -166,7 +194,7 @@
 
       <div>
         <div el="section" style="padding:0;">
-            <div el="list" style="padding:40px;--gap:40px;">
+            <div el="list" class="faq">
               <h3 el style="text-align:center;">Frequently Asked Questions</h3>
 
                 <div class="accordian-list">
@@ -266,7 +294,7 @@ export default {
           duration:1.5,
           ease:'power3'
       });
-      gsap.from('.col3-wrap i',{
+      gsap.from('.col3-wrap img',{
           opacity:0,
           x:-100,
           duration:0.5,
@@ -289,6 +317,10 @@ export default {
     background-position: right center;
     background-repeat: no-repeat;
 }
+.faq{
+    padding:40px;
+    --gap:40px;
+}
 .jobSearch{
     --display:inline-grid;
     border-radius:8px;
@@ -298,7 +330,7 @@ export default {
     --bg-color:var(--color-secondary);
     --hover-bg-color:var(--color-secondary);
     --pressed-bg-color:var(--color-secondary);
-    margin-top:200px;
+    margin-top:300px;
     max-width: 550px;
 }
 .jobSearch input{
@@ -336,7 +368,7 @@ export default {
     grid-gap: 30px;
     justify-content: center;
 }
-.col3-wrap i{
+.col3-wrap img{
     font-size: 35px;
     width: 70px;
     height: 70px;
@@ -385,18 +417,25 @@ export default {
 }
 
 @media(max-width:800px){
+    .faq{
+    padding: 40px 20px;
+    --gap:40px;
+}
     #background{
         background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
         background-size: cover;
         height: 350px;
     }
+    .jobSearch{
+        margin-top:200px;
+    }
     [el=c]{
-    grid-template-columns: 1fr;
-  }
+        grid-template-columns: 1fr;
+    }
     .mobile-img-full{
         width: 100%;
         object-fit: cover;
-        object-position: bottom;
+        object-position: top;
         height: 250px;
     }
     .banner{

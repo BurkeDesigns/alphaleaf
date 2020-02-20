@@ -24,7 +24,7 @@
 [el="logo"]{
     height:40px;
 }
-[el~="header"] [el~="nav"] > *{
+[el~="header"] [el~="nav"] > a{
     text-decoration: none;
     color: #506690;
     -webkit-text-fill-color: currentColor;

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 67.06 61.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9eaeb;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #2a5082;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        fill: #a3d4ff;
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>project</title>
+  <g id="icons">
+    <g>
+      <circle class="cls-1" cx="33.53" cy="27.36" r="20.19"/>
+      <polyline class="cls-2" points="22.22 48.37 19.8 53.21 17.38 48.37"/>
+      <polygon class="cls-3" points="31.11 15.25 33.53 12.82 35.96 15.25 35.96 19.29 33.53 21.71 31.11 19.14 31.11 15.25"/>
+      <polygon class="cls-3" points="51.3 49.26 48.59 54.02 34.44 28.3 38.53 25.94 51.3 49.26"/>
+      <path class="cls-3" d="M20,46.77a8,8,0,0,1,1.1,1.37L32,29.18l-4.1-2.37L17.38,45A8.14,8.14,0,0,1,20,46.77Z"/>
+      <circle class="cls-4" cx="33.52" cy="25.74" r="5.66"/>
+      <path class="cls-2" d="M31.8,27.46A2.43,2.43,0,0,1,35.24,24"/>
+      <line class="cls-2" x1="33.53" y1="34.63" x2="33.53" y2="43.52"/>
+      <path class="cls-2" d="M48.86,29A17,17,0,0,1,18.2,29"/>
+      <circle class="cls-4" cx="19.8" cy="44.33" r="4.85"/>
+    </g>
+  </g>
+</svg>
