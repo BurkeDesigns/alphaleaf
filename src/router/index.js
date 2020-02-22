@@ -50,13 +50,13 @@ const routes = [
       return import(/* webpackChunkName: "about" */ '../views/Enroll.vue')
     }
   },
-  // {
-  //   path: '/login',
-  //   name: 'login',
-  //   component: function () {
-  //     return import('../views/Login.vue')
-  //   }
-  // },
+  {
+    path: '/login',
+    name: 'login',
+    component: function () {
+      return import('../views/Login.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

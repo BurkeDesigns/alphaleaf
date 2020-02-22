@@ -60,7 +60,7 @@
                         </div>
                     </transition>
                     <div class="hideOnMobile">
-                        <router-link to="/enroll" el="btn" style="--height:40px;">get started</router-link>
+                        <router-link to="/enroll" el="btn shadow" style="--height:40px;--bg-color:#fff; --color:var(--color-secondary);--hover-bg-color:#fff;--pressed-bg-color:#fff;">get started</router-link>
                     </div>
                     
                 </div>
@@ -165,6 +165,8 @@ export default {
 @import './assets/css/components.css';
 
 [el="header"]{
+    background-color: #00203e;
+    background-image: linear-gradient(45deg, #00203e, var(--color-secondary));
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     z-index:3;
 }
@@ -179,21 +181,41 @@ export default {
 [el="nav"]{
     padding-right:20px;
 }
+[el~="header"] [el~="nav"] > a {
+    color:#fff;
+}
 
 [el="nav"] .router-link-exact-active{
-    color:var(--color-secondary) !important;
+    color:deepskyblue !important;
     -webkit-text-fill-color: currentColor;
 }
+
 .logo-symbol {
-    fill: var(--color-secondary);
+    /* fill: var(--color-secondary); */
+    fill: #fff;
 }
 
 .logo-letters {
+    /* fill: #506690; */
+    fill: #fff;
+}
+
+
+.icon{
+    color:#fff;
+    -webkit-text-fill-color: currentColor;
+}
+.menu .logo-symbol,
+[el=footer] .logo-symbol {
+    fill: var(--color-secondary);
+}
+
+.menu .logo-letters,
+[el=footer] .logo-letters {
     fill: #506690;
 }
-.icon{
+.menu .icon{
     color:var(--color-secondary);
-    -webkit-text-fill-color: currentColor;
 }
 .menu{
     width: 100%;
@@ -215,6 +237,7 @@ export default {
         padding-right:0px;
     }
     [el~="header"] [el~="nav"] > a {
+        color:#506690;
         display:grid;
         height:50px;
         padding:0 30px;

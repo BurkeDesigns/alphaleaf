@@ -14,7 +14,8 @@
     --display:none;
 }
 
-[el*='input-list'] input[type='text']{
+[el*='input-list'] input[type='text'],
+[el*='input-list'] input[type='password']{
     --width:100%;
     --height: 35px;
     --padding: 0px;

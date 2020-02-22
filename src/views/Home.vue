@@ -1,12 +1,17 @@
 <template>
 <main el="main">
     <div id="background">
-
+        <svg width="100%" height="96px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" style="position: absolute;bottom: 0;fill: #fff;">
+            <path d="M0,0 C6.83050094,50 15.1638343,75 25,75 C41.4957514,75 62.4956597,0 81.2456597,0 C93.7456597,0 99.9971065,0 100,0 L100,100 L0,100"></path>
+        </svg>
     </div>
-    <div el="section">
+    <div el="section" id="jobContainer">
         <div>
             <div el="list" class="jobSearch">
-                <h3 el="white">Become a Software Engineer in Test</h3>
+                <div el="list" style="--gap:8px;">
+                    <h3 el="white75">Become a</h3>
+                    <h2 el="white">Software Engineer in Test</h2>
+                </div>
                 <!-- <p el="white75">Take a look at all of the job opportunities you could be accepting that pay an average of $120k</p> -->
                 <!-- <label for="jobInput">
                     <input type="text" id="jobInput" placeholder="Job opportunities near me...">
@@ -288,10 +293,12 @@ export default {
         }
   },
   mounted(){
-      gsap.from('.jobSearch', {
+      gsap.from('.jobResults > *', {
           opacity: 0,
-          x:-300,
+          x:-150,
+          delay:0.3,
           duration:1.5,
+          stagger: 0.3,
           ease:'power3'
       });
       gsap.from('.col3-wrap img',{
@@ -311,39 +318,35 @@ export default {
     height: 500px;
     width: 100%;
     position: absolute;
-    background-color: var(--color-dark);
-    background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=1080);
+    background-color: #00203e;
+    background-image: linear-gradient(90deg,#00203e, transparent), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
     background-size: 1300px;
     background-position: right center;
     background-repeat: no-repeat;
+}
+#background svg{
+    fill:#fff;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 .faq{
     padding:40px;
     --gap:40px;
 }
+#jobContainer{
+    display: grid;
+    align-content: center;
+    height: 400px;
+    margin-bottom: 100px;
+}
 .jobSearch{
     --display:inline-grid;
     border-radius:8px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     --padding:30px;
     --color:#fff;
-    --bg-color:var(--color-secondary);
-    --hover-bg-color:var(--color-secondary);
-    --pressed-bg-color:var(--color-secondary);
-    margin-top:300px;
     max-width: 550px;
-}
-.jobSearch input{
-    padding: 0 20px;
-    height: 40px;
-    width:100%;
-    display: flex;
-    align-items: center;
-    border: 0;
-    border-radius: 4px;
-    color: var(--color-dark);
-    -webkit-text-fill-color: currentColor;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    text-shadow: 0 2px 8px rgba(0,0,0.1);
 }
 .card-content{
     padding:30px;
@@ -417,17 +420,23 @@ export default {
 }
 
 @media(max-width:800px){
+    #background svg{
+        height: 50px;
+    }
     .faq{
     padding: 40px 20px;
     --gap:40px;
 }
     #background{
-        background-image: linear-gradient(90deg,var(--color-dark), transparent 70%), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
+        background-image: linear-gradient(90deg,#00203e, transparent), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
         background-size: cover;
-        height: 350px;
+        height: 430px;
     }
-    .jobSearch{
-        margin-top:200px;
+    #jobContainer{
+        display: grid;
+        align-content: center;
+        height: 400px;
+        margin-bottom: 60px;
     }
     [el=c]{
         grid-template-columns: 1fr;
