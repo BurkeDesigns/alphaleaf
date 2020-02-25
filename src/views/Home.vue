@@ -132,31 +132,30 @@
     </div>
 
     <div style="background-color:var(--color-light);min-height:400px;display:flex;align-items:center;">
-        <div el="section">
-            <div el="list-column-alt" style="text-align:center;--gap:0px; justify-content:center;">
-                <div el="list" style="padding: 60px 30px;">
-                    <h3 el>Alphaleaf</h3>
-                    <p el>Costs $5,000</p>
-                    <p el>5 month training</p>
-                    <p el>On the job experience</p>
-                    <p el>Senior Engineer Instructors</p>
+        <div el="section" style="padding: 60px 20px;">
+            
+            <div el="list" style="--gap:30px;">
+                <h3 el style="text-align:center;">Why Alphaleaf?</h3>
+                <div el="list-column-alt" class="card-list">
+                    <div el="list">
+                        <h3 el>Cost</h3>
+                        <p el>Affortable Tuition at $6,000</p>
 
-                </div>
-                <div style="display:flex;align-items:center;justify-content:center;">
-                    <i class="material-icons">thumbs_up_down</i>
-                </div>
-                <div el="list" style="padding: 60px 30px;">
-                    <h3 el>Others</h3>
-                    <p el>Costs $12,000+</p>
-                    <p el>7+ month training</p>
-                    <p el>Student experience</p>
-                    <p el>Alumni Instructors</p>
+                    </div>
+                    <div el="list">
+                        <h3 el>Project Based</h3>
+                        <p el>Real Job Experience</p>
+                    </div>
+                    <div el="list">
+                        <h3 el>Learn From Experience</h3>
+                        <p el>Senior Engineer Instructors</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div style="background-color:var(--color-secondary);min-height:400px;display:flex;align-items:center;">
+    <div style="background-color:var(--color-secondary);min-height:400px;display:flex;align-items:center; background-image:linear-gradient(45deg, #00203e, var(--color-secondary));">
         <div el="section" style="padding: 60px 30px;">
             <div el="list" style="text-align:center;--gap:30px;">
                 <div el="list">
@@ -314,6 +313,26 @@ export default {
 
 </script>
 <style>
+.card-list{
+    --gap:30px;
+    justify-content:center;
+    grid-template-columns: repeat(3, 300px);
+    grid-auto-flow: unset;
+}
+
+.card-list > *{
+    --border:1px solid var(--color-secondary);
+    border-radius:8px;
+    min-height:200px;
+    padding: 30px;
+    transition:.3s;
+    justify-content: left;
+    align-content: space-between;
+}
+.card-list > *:hover{
+    box-shadow:0 5px 8px rgba(0,0,0,0.2);
+    transform:scale(1.1);
+}
 #background{
     height: 500px;
     width: 100%;
@@ -418,8 +437,17 @@ export default {
   position:relative;
   --bg-color:#fff;
 }
-
+@media(max-width:1100px){
+    .card-list{
+        grid-template-columns: repeat(2, 300px);
+        justify-content: center;
+    }
+}
 @media(max-width:800px){
+    .card-list{
+        grid-template-columns: 90%;
+        justify-content: center;
+    }
     #background svg{
         height: 50px;
     }

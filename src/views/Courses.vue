@@ -207,10 +207,10 @@
                     <h3 el="white">Just a few of the top companies that hire SET...</h3>
                     <p el="white75">You don't need a college degree to start your career in SET making an average of $80k - $120k.</p>
                     <div>
-                        <router-link to="/enroll" el="btn">learn more</router-link>
+                        <router-link to="/enroll" el="btn">get started</router-link>
                     </div>
                 </div>
-                <div>
+                <div style="display:flex;">
                     <img src="https://alphaleaf.imgix.net/assets/img/companies.png?auto=format" alt="top companies" style="width: 280px;margin: auto;">
                 </div>
             </div>
@@ -237,17 +237,17 @@
 }
 .timeline > *:not(:last-child):after{
    content: '';
-    width: 2px;
+    width: 1px;
     background-color: rgba(0,0,0,0.15);
     left: 0;
-    top: 8px;
-    height: calc(100% + 40px);
+    bottom: 0;
+    height: calc(100% - 60px);
     position: absolute;
 }
 .timeline > *:before{
     content: '';
-    width: 8px;
-    height: 8px;
+    width: 4px;
+    height: 4px;
     border-radius: 100%;
     border: 2px solid var(--color-secondary);
     background-color: var(--color-secondary);
@@ -256,6 +256,7 @@
     position: absolute;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    box-shadow: 0 0 0 15px rgba(55, 85, 190, 0.05);
     z-index: 1;
 }
 .col3-wrap{

@@ -61,7 +61,7 @@
       </div>
 
 
-      <div el="section" style="min-height:300px;display:flex;align-items:center;">
+      <!-- <div el="section" style="min-height:300px;display:flex;align-items:center;">
         <div el="list">
             <h3 el>Testimonials</h3>
             <p el>
@@ -70,9 +70,9 @@
 
           </div>
 
-      </div>
+      </div> -->
 
-      <div style="background-color:var(--color-light);">
+      <div>
         <div el="section" style="padding:0;">
           <div el="c">
             
@@ -84,7 +84,7 @@
                 <img src="https://alphaleaf.imgix.net/assets/img/instagram.png?auto=format" alt="" class="socialmedia instagram">
               </div>
             </div>
-            <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700">
+            <!-- <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700"> -->
 
           </div>
         </div>
