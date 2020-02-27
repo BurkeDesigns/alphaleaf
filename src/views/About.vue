@@ -61,6 +61,31 @@
       </div>
 
 
+      <!-- <div style="background-color:var(--color-light);min-height:400px;display:flex;align-items:center;">
+        <div el="section" style="padding: 60px 20px;">
+            
+            <div el="list" style="--gap:30px;">
+                <h3 el style="text-align:center;"></h3>
+                <div el="list-column-alt" class="card-list">
+                    <div el="list">
+                        <h3 el>Cost</h3>
+                        <p el>Affortable Tuition at $6,000</p>
+
+                    </div>
+                    <div el="list">
+                        <h3 el>Project Based</h3>
+                        <p el>Real Job Experience</p>
+                    </div>
+                    <div el="list">
+                        <h3 el>Learn From Experience</h3>
+                        <p el>Senior Engineer Instructors</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
       <!-- <div el="section" style="min-height:300px;display:flex;align-items:center;">
         <div el="list">
             <h3 el>Testimonials</h3>

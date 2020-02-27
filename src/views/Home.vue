@@ -339,7 +339,7 @@ export default {
     position: absolute;
     background-color: #00203e;
     background-image: linear-gradient(90deg,#00203e, transparent), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
-    background-size: 1300px;
+    background-size: 1300px 100%, 1300px;
     background-position: right center;
     background-repeat: no-repeat;
 }
@@ -448,6 +448,10 @@ export default {
         grid-template-columns: 90%;
         justify-content: center;
     }
+    .card-list > *{
+        min-height: max-content;
+        align-content: unset;
+    }
     #background svg{
         height: 50px;
     }
@@ -457,7 +461,7 @@ export default {
 }
     #background{
         background-image: linear-gradient(90deg,#00203e, transparent), url(https://alphaleaf.imgix.net/assets/img/homepage_bg.jpeg?auto=format&w=700);
-        background-size: cover;
+        background-size: cover, cover;
         height: 430px;
     }
     #jobContainer{
