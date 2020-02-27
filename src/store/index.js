@@ -5,6 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
+        user: null,
         window: {
             width: 1080,
             height: 0,
@@ -25,6 +26,9 @@ export default new Vuex.Store({
             })
             
             
+        },
+        setUser(state, payload){
+          state.user = payload;
         }
     },
     actions: {

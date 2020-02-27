@@ -132,9 +132,21 @@ export default {
               
             }
     },
+    computed:{
+      user(){
+        return this.$root.$store.state.user;
+      }
+    },
     watch:{
         $route (){
             this.showMenu = false;
+            if(this.user == null){
+                this.$router.push('login');
+            }else if (this.user.authorizedUser == false){
+                this.$router.push('login');
+            }
+            
+            //window.console.log(val);
         }
     }, 
     created(){
