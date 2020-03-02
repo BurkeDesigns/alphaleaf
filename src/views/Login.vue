@@ -5,7 +5,7 @@
             <h2 el="title" class="center-txt" style="--color:var(--color-secondary);">Welcome Back!</h2>
             <!-- <p el="p" class="center-txt">Enter your account details below</p> -->
 
-            <!-- <label for="username" el="input-label" style="margin-top:15px;">
+            <label for="username" el="input-label" style="margin-top:15px;">
               <div el="sm-txt label">Username</div>
               <input id="username" name="username" type="text" placeholder="My email..." el>
               <div el="sm-txt error error-color">Error message</div>
@@ -17,12 +17,16 @@
               <div el="sm-txt error error-color">Error message</div>
             </label>
 
-            <button el="btn stretch" style="margin-top:15px;" @click="socialLogin">Sign In</button> -->
-            <img src="../assets/img/google/btn_google_signin_light_normal_web@2x.png" style="height: 50px; filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.2)); margin: auto;" alt="Google Sign In" @click="socialLogin">
+            <button el="btn stretch" style="margin-top:15px;" @click="setError">Sign In</button>
+            
+
+            
+            <!-- <img src="../assets/img/google/btn_google_signin_light_normal_web@2x.png" style="height: 50px; filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.2)); margin: auto;" alt="Google Sign In" @click="socialLogin"> -->
 
             <!-- <div class="center-txt">Forgot your password?</div> -->
-            <div class="center"><div el="link" @click="logout">Logout</div></div>
+            <!-- <div class="center"><div el="link" @click="logout">Logout</div></div> -->
           </div>
+          <div el="sm-txt error error-color" style="max-width: 350px; margin: auto; padding: 10px;" v-if="error != ''">{{error}}</div>
       </div>
   </main>
 </template>
@@ -39,6 +43,7 @@ export default {
             email:'',
             password:'',
             user:null,
+            error:''
         }
     },
     methods: {
@@ -68,7 +73,7 @@ export default {
                     x.$router.replace('/');
                   }else{
 
-                    alert("Contact the system administrator to gain access to this website.");
+                    //alert("Contact the system administrator to gain access to this website.");
                     //x.logout();
                   }
               } else {
@@ -82,15 +87,15 @@ export default {
 
                   })
                   .then(function() {
-                      alert("Your account request was added. Contact the system administrator to gain access to this website.");
+                      console.log("Your account request was added. Contact the system administrator to gain access to this website.");
                   })
                   .catch(function() {
-                      alert("Error requesting account access.");
+                      console.log("Error requesting account access.");
                   });
                   //x.logout();
               }
           }).catch(function(error) {
-              alert("Error getting document:", error);
+              console.log("Error getting document:", error);
               //x.logout();
           });
 
@@ -116,6 +121,9 @@ export default {
       },
       setUser(data){
         this.$root.$store.commit('setUser', data);
+      },
+      setError(){
+        this.error = 'User account not found.';
       }
     },
 }
