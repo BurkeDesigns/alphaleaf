@@ -31,7 +31,7 @@
   </main>
 </template>
 <script>
-import firebase from "firebase";
+// import firebase from "firebase";
 
 
 export default {
@@ -47,81 +47,81 @@ export default {
         }
     },
     methods: {
-      login(){
-        firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(() =>{
-          this.$router.replace('home');
+    //   login(){
+    //     firebase.auth().signInWithEmailAndPassword(this.email, this.password).then(() =>{
+    //       this.$router.replace('home');
 
-        }).catch((err)=>{
-          alert('Oops. '+err.message);
-        })
-      },
-      socialLogin(){
-        var x = this;
-        const provider = new firebase.auth.GoogleAuthProvider();
-        firebase.auth().signInWithPopup(provider).then((result) =>{
+    //     }).catch((err)=>{
+    //       alert('Oops. '+err.message);
+    //     })
+    //   },
+    //   socialLogin(){
+    //     var x = this;
+    //     const provider = new firebase.auth.GoogleAuthProvider();
+    //     firebase.auth().signInWithPopup(provider).then((result) =>{
 
-          var db = firebase.firestore(),
-              user = result.user,
-              docRef = db.collection("users").doc(user.uid);
+    //       var db = firebase.firestore(),
+    //           user = result.user,
+    //           docRef = db.collection("users").doc(user.uid);
 
-          docRef.get().then(function(doc) {
-              if (doc.exists) {
-                var data = doc.data();
-                  if(data.authorizedUser == true){
-                    //alert('Authorized User!');
-                    x.setUser(data);
-                    x.$router.replace('/');
-                  }else{
+    //       docRef.get().then(function(doc) {
+    //           if (doc.exists) {
+    //             var data = doc.data();
+    //               if(data.authorizedUser == true){
+    //                 //alert('Authorized User!');
+    //                 x.setUser(data);
+    //                 x.$router.replace('/');
+    //               }else{
 
-                    //alert("Contact the system administrator to gain access to this website.");
-                    //x.logout();
-                  }
-              } else {
-                  // doc.data() will be undefined in this case
-                  db.collection("users").doc(user.uid).set({
-                      displayName: user.displayName,
-                      authorizedUser: false,
-                      uid: user.uid,
-                      photoURL: user.photoURL,
-                      email: user.email,
+    //                 //alert("Contact the system administrator to gain access to this website.");
+    //                 //x.logout();
+    //               }
+    //           } else {
+    //               // doc.data() will be undefined in this case
+    //               db.collection("users").doc(user.uid).set({
+    //                   displayName: user.displayName,
+    //                   authorizedUser: false,
+    //                   uid: user.uid,
+    //                   photoURL: user.photoURL,
+    //                   email: user.email,
 
-                  })
-                  .then(function() {
-                      console.log("Your account request was added. Contact the system administrator to gain access to this website.");
-                  })
-                  .catch(function() {
-                      console.log("Error requesting account access.");
-                  });
-                  //x.logout();
-              }
-          }).catch(function(error) {
-              console.log("Error getting document:", error);
-              //x.logout();
-          });
+    //               })
+    //               .then(function() {
+    //                   console.log("Your account request was added. Contact the system administrator to gain access to this website.");
+    //               })
+    //               .catch(function() {
+    //                   console.log("Error requesting account access.");
+    //               });
+    //               //x.logout();
+    //           }
+    //       }).catch(function(error) {
+    //           console.log("Error getting document:", error);
+    //           //x.logout();
+    //       });
 
 
 
 
           
 
-          // this.$router.replace('/');
+    //       // this.$router.replace('/');
 
-        }).catch((err)=>{
-          alert('Oops. '+err.message);
-        })
-      },
-      logout: function() {
-        this.setUser(null);
-        firebase.auth().signOut().then(() => {
-          // this.$router.replace('login')
-          alert("You've been signed out.");
-        }).catch((err)=>{
-          alert('Unable to logout. '+err.message);
-        })
-      },
-      setUser(data){
-        this.$root.$store.commit('setUser', data);
-      },
+    //     }).catch((err)=>{
+    //       alert('Oops. '+err.message);
+    //     })
+    //   },
+    //   logout: function() {
+    //     this.setUser(null);
+    //     firebase.auth().signOut().then(() => {
+    //       // this.$router.replace('login')
+    //       alert("You've been signed out.");
+    //     }).catch((err)=>{
+    //       alert('Unable to logout. '+err.message);
+    //     })
+    //   },
+    //   setUser(data){
+    //     this.$root.$store.commit('setUser', data);
+    //   },
       setError(){
         this.error = 'User account not found.';
       }
