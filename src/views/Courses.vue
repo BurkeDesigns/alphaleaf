@@ -22,7 +22,7 @@
                             </div>
                             <div el="list" style="text-align:left;--gap:8px;">
                                 <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
-                                <p el>March 1, 2020 @7pm</p>
+                                <p el>March 29, 2020 @7pm</p>
                             </div>
                         </div>
                         <div el="list-column">
@@ -30,7 +30,7 @@
                                 <i class="material-icons">info</i>
                             </div>
                             <div el="list" style="text-align:left;--gap:8px;">
-                                <p el="bold" style="--color:var(--color-dark);">Prior programming experience not required</p>
+                                <p el="bold" style="--color:var(--color-dark);">Prior IT experience not required</p>
                             </div>
                         </div>
 

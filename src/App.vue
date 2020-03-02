@@ -140,11 +140,11 @@ export default {
     watch:{
         $route (){
             this.showMenu = false;
-            if(this.user == null){
-                this.$router.push('login');
-            }else if (this.user.authorizedUser == false){
-                this.$router.push('login');
-            }
+            // if(this.user == null){
+            //     this.$router.push('login');
+            // }else if (this.user.authorizedUser == false){
+            //     this.$router.push('login');
+            // }
             
             //window.console.log(val);
         }

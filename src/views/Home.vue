@@ -51,7 +51,7 @@
             <img src="https://alphaleaf.imgix.net/assets/img/session.png?auto=format&fit=min&w=500" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
-                    <div el="status-sucess">STARTS IN 2 DAYS</div>
+                    <div el="status-sucess">STARTS MARCH 29</div>
                 </div>
                 <h3 el>Join our FREE training session!</h3>
                 <p el>We offer a free training session every Sunday. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
@@ -131,40 +131,40 @@
         </div>
     </div>
 
-    <div style="background-color:var(--color-light);min-height:400px;display:flex;align-items:center;">
-        <div el="section" style="padding: 60px 20px;">
-            
-            <div el="list" style="--gap:30px;">
-                <h3 el style="text-align:center;">Why Alphaleaf?</h3>
-                <div el="list-column-alt" class="card-list">
-                    <div el="list">
-                        <h3 el>Cost</h3>
-                        <p el>Affortable Tuition at $6,000</p>
-
-                    </div>
-                    <div el="list">
-                        <h3 el>Project Based</h3>
-                        <p el>Real Job Experience</p>
-                    </div>
-                    <div el="list">
-                        <h3 el>Learn From Experience</h3>
-                        <p el>Senior Engineer Instructors</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- <div style="background-color:var(--color-light);min-height:400px;display:flex;align-items:center;">
+        
+    </div> -->
 
     <div style="background-color:var(--color-secondary);min-height:400px;display:flex;align-items:center; background-image:linear-gradient(45deg, #00203e, var(--color-secondary));">
+        
         <div el="section" style="padding: 60px 30px;">
             <div el="list" style="text-align:center;--gap:30px;">
+                <h3 el="white" style="text-align:center;">Why Alphaleaf?</h3>
+                <div el="list-column-alt" class="card-list">
+                    <div el="list">
+                            <h3 el="white">Cost</h3>
+                            <p el="white75">Affortable tuition at $6,000. No hidden fees.</p>
+
+                    </div>
+                    <div el="list">
+                        <h3 el="white">Project Based</h3>
+                        <p el="white75">Learn in an immersive real world project environment.</p>
+                    </div>
+                    <div el="list">
+                        <h3 el="white">Learn From Experience</h3>
+                        <p el="white75">Senior Engineer Instructors</p>
+                    </div>
+                </div>
                 <div el="list">
                     <h3 el="white">Ready to Start?</h3>
-                    <p el="white75">No prior experience required. Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
+                    <p el="white75">No prior IT experience required. Enroll today and start working in the field in as little as 5 months earning $80k - $120k on average!</p>
                     <div style="position:relative;"><router-link to="/enroll" el="btn-2ry">enroll today</router-link></div>
                 </div>
             </div>
+
+
         </div>
+        
     </div>
     <!-- <div>
         <div el="section">
@@ -231,9 +231,14 @@ export default {
       return{
         faq:[
             {
+                label:"What is the total cost?",
+                expand: false,
+                content: 'Our SET course costs $6,000. Unlike other programs, we do not charge a percentage of your salary when you get a job.'
+            },
+            {
                 label:'When can I start?',
                 expand: false,
-                content: 'Our next batch starts March 1st, 2020. Make sure you sign up before this date.'
+                content: 'Our next batch starts March 29, 2020. Make sure you sign up before this date.'
             },
             {
                 label:"I don't have an IT background, can I do it?",
@@ -318,16 +323,17 @@ export default {
     justify-content:center;
     grid-template-columns: repeat(3, 300px);
     grid-auto-flow: unset;
+    text-align: left;
+
 }
 
 .card-list > *{
-    --border:1px solid var(--color-secondary);
+    --border:1px solid #fff;
     border-radius:8px;
-    min-height:200px;
     padding: 30px;
     transition:.3s;
     justify-content: left;
-    align-content: space-between;
+    align-content: center;
 }
 .card-list > *:hover{
     box-shadow:0 5px 8px rgba(0,0,0,0.2);
