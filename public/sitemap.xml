@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://alphaleaf-uat.web.app</loc>
+        <loc>https://alphaleaf.tech</loc>
         <priority>1</priority>
     </url>
     <url>
-        <loc>https://alphaleaf-uat.web.app/courses</loc>
+        <loc>https://alphaleaf.tech/courses</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://alphaleaf-uat.web.app/about</loc>
+        <loc>https://alphaleaf.tech/about</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://alphaleaf-uat.web.app/contact</loc>
+        <loc>https://alphaleaf.tech/contact</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://alphaleaf-uat.web.app/enroll</loc>
+        <loc>https://alphaleaf.tech/enroll</loc>
         <priority>0.8</priority>
     </url>
 </urlset>

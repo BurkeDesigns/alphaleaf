@@ -9,11 +9,11 @@
                   <div el="list-column-alt">
                       <div el="list" style="--gap:5px">
                           <h4 el style="--color:var(--color-65);">Call us</h4>
-                          <div class="lg-bold">+1 (571) 232 7661</div>
+                          <div class="lg-bold">+1 (202) 790 3893</div>
                       </div>
                       <div el="list" style="--gap:5px">
                           <h4 el style="--color:var(--color-65);">or send us an email</h4>
-                          <div class="lg-bold">info@alphaleaf.com</div>
+                          <div class="lg-bold">info@alphaleaf.tech</div>
                       </div>
                       
                   </div>
@@ -64,7 +64,7 @@
                 <div el="list" style="--gap:4px;">
                     <a href="http://maps.google.com/?q=12750 Fair Lakes Cir, Fairfax, VA 22033" el="link" target="_blank">12750 Fair Lakes Cir, Fairfax, VA 22033</a>
                     <p el>Mon, Tue, Wed: 5pm - 10pm</p>
-                    <p el>Sat: 10am - 4pm</p>
+                    <p el>Sun: 10am - 4pm</p>
                 </div>
                 <a href="http://maps.google.com/?q=12750 Fair Lakes Cir, Fairfax, VA 22033" target="_blank">
                     <img src="../assets/img/maps.png" alt="location" el="stretch" class="map">
