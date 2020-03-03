@@ -22,7 +22,7 @@
                             </div>
                             <div el="list" style="text-align:left;--gap:8px;">
                                 <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
-                                <p el>March 29, 2020 @7pm</p>
+                                <p el>March 29, 2020 @10am</p>
                             </div>
                         </div>
                         <div el="list-column">
@@ -184,9 +184,9 @@
                         <!-- <p el>Gradle/Maven</p> -->
                         <p el>Cucumber BDD</p>
                         <p el>REST Assured/Karate</p>
-                        <p el>Gauge framework</p>
+                        <p el>Gauge Framework</p>
                         <p el>Jenkins</p>
-                        <p el>Docker/kubernetes</p>
+                        <p el>Docker/Kubernetes</p>
                         <p el>Sitespeed.io</p>
                         <p el>ReportPortal.io</p>
                     </div>

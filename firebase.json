@@ -30,7 +30,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "https://alphaleaf.tech/index.html"
       },
       {
         "source": "/robots.txt",

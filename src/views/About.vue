@@ -15,15 +15,15 @@
           </div>
 
           <div el="card" style="justify-content: space-between; align-items:center;">
-            <img src="https://leap.mediumra.re/assets/img/inner-2.jpg" alt="" el="flex-img">
+            <img src="https://alphaleaf.imgix.net/assets/img/whiteboard_thinking.jpg?auto=format&fit=min&w=500" alt="" el="flex-img">
             <div el="list">
                 <h3 el>Our Mission</h3>
                 <p el>
                   Our mission is to empower our students with high quality tech education and give them the opportunity to have the career of their dreams. 
                 </p>
-                <p el>
+                <!-- <p el>
                   As a fast growing start up, we know first hand how technology is transforming the tech industry. We know exactly what the critical tech skills that companies are looking for in their workforce. 
-                </p>
+                </p> -->
                 <p el>
 
                 </p>
@@ -97,7 +97,7 @@
 
       </div> -->
 
-      <div>
+      <!-- <div>
         <div el="section" style="padding:0;">
           <div el="c">
             
@@ -109,11 +109,10 @@
                 <img src="https://alphaleaf.imgix.net/assets/img/instagram.png?auto=format" alt="" class="socialmedia instagram">
               </div>
             </div>
-            <!-- <img src="https://alphaleaf.imgix.net/assets/img/girl-looking.jpg?auto=format&fit=min&w=700"> -->
 
           </div>
         </div>
-      </div>
+      </div> -->
 
 
 
@@ -124,6 +123,7 @@
 [el~="flex-img"]{
   border-radius:8px;
   object-fit: cover;
+  max-height:300px;
 }
 [el="card"]{
   grid-gap:30px;
