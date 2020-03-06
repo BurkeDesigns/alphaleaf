@@ -22,11 +22,11 @@
 
                             
                         <label for="fname" el="input">
-                            <input type="text" id="fname" placeholder="First Name" el="stretch">
+                            <input type="text" id="fname" placeholder="First Name" el="stretch" v-model="contact.fname">
                         </label>
 
                         <label for="lname" el="input">
-                            <input type="text" id="lname" placeholder="Last Name" el="stretch">
+                            <input type="text" id="lname" placeholder="Last Name" el="stretch" v-model="contact.lname">
                         </label>
 
                     </div>
@@ -34,13 +34,13 @@
 
                   <div el="input-list" style="--gap:30px;">
                       <label for="email" el="input">
-                          <input type="text" id="email" placeholder="Email" el>
+                          <input type="text" id="email" placeholder="Email" el v-model="contact.email">
                       </label>
                       <label for="phone" el="input">
-                          <input type="text" id="phone" placeholder="Phone" el>
+                          <input type="text" id="phone" placeholder="Phone" el v-model="contact.phone">
                       </label>
                       <label for="msg" el="input">
-                          <input type="text" id="msg" placeholder="Message" el>
+                          <input type="text" id="msg" placeholder="Message" el v-model="contact.msg">
                       </label>
 
                       <!-- <label for="textarea1" el="input">
@@ -48,7 +48,10 @@
                       </label> -->
                   </div>
 
-                  <router-link to="/contact" el="btn stretch">send message</router-link>
+                  <div el="btn stretch" @click="sendMessage">
+                    <span v-if="!loading">send message</span>
+                    <span v-else>sending...</span>
+                  </div>
 
                   
 
@@ -79,7 +82,65 @@
   </main>
 </template>
 
+<script>
+// import firebase from "firebase";
 
+
+export default {
+    name: 'contact',
+    data(){
+        return {
+            loading: false,
+            contact:{
+                fname: '',
+                lname:'',
+                email:'',
+                phone:'',
+                msg:''
+            }
+        }
+    },
+    methods: {
+        sendMessage(){
+            var x = this;
+            const data = { 
+                fname:  x.contact.fname,
+                lname: x.contact.lname,
+                email: x.contact.email,
+                phone: x.contact.phone,
+                msg: x.contact.msg
+            };
+            x.loading = true;
+            fetch('/api/contact', {
+                method: 'POST', // or 'PUT'
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            }).then((response) => response.json())
+            .then((data) => {
+                x.loading = false;
+                console.log('Success:', data);
+                alert('Thank you for your submission. We will get back to you as soon as possible.');
+            }).catch((error) => {
+                x.loading = false;
+                alert('We were unable to recieve your request. Please check your internet connection and try again.');
+                console.error('Error:', error);
+            });
+        },
+        resetForm(){
+            this.contact.fname = '';
+            this.contact.lname = '';
+            this.contact.email = '';
+            this.contact.phone = '';
+            this.contact.msg = '';
+        }
+    },
+}
+
+
+
+</script>
 
 <style scoped>
 
