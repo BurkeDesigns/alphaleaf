@@ -101,8 +101,35 @@ export default {
         }
     },
     methods: {
+        validateForm(){
+            var x = this;
+            
+            if(
+                x.contact.fname != ''
+                && x.contact.lname != ''
+                && x.contact.email != ''
+                && x.contact.phone != ''
+                //&& x.contact.msg != ''
+            ){
+                return true;
+            }else{
+                return false;
+            }
+        },
+        validateEmail(){
+            var patt = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return patt.test(this.contact.email);
+        },
         sendMessage(){
             var x = this;
+            if(!x.validateForm()){
+                alert('You must fill out all required information before a submission can be completed.');
+                return;
+            }
+            if(!x.validateEmail()){
+                alert('Your email address is incorrect. Please check your entered email address and try again.');
+                return;
+            }
             const data = { 
                 fname:  x.contact.fname,
                 lname: x.contact.lname,
@@ -111,17 +138,18 @@ export default {
                 msg: x.contact.msg
             };
             x.loading = true;
-            fetch('/api/contact', {
-                method: 'POST', // or 'PUT'
+            fetch('https://us-central1-alphaleaf-uat.cloudfunctions.net/addMessage', {
+                method: 'POST', 
                 headers: {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(data),
-            }).then((response) => response.json())
+            }).then(response => response.text())
             .then((data) => {
                 x.loading = false;
                 console.log('Success:', data);
                 alert('Thank you for your submission. We will get back to you as soon as possible.');
+                x.resetForm();
             }).catch((error) => {
                 x.loading = false;
                 alert('We were unable to recieve your request. Please check your internet connection and try again.');
