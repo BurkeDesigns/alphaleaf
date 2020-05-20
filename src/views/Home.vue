@@ -51,12 +51,12 @@
             <img src="https://alphaleaf.imgix.net/assets/img/session.png?auto=format&fit=min&w=500" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
                 <div>
-                    <div el="status-sucess">STARTS APRIL 10</div>
+                    <div el="status-sucess">STARTS SEPTEMBER 20</div>
                 </div>
                 <!-- <h3 el>Join our FREE Intro Session!</h3>
                 <p el>We offer a free intro session today at 2pm. Join us and learn about Software Engineer in Test and find out if it's right for you. Be sure to join on the web with a computer or download the Microsoft Teams app to join on mobile.</p> -->
-                <h3 el>Join our FREE information session!</h3>
-                <p el>We offer a free information session on April 10. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
+                <h3 el>Join our class before it's too late!</h3>
+                <p el>Classes start on September 20 at 10am. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
             </div>
             <div class="card-content" style="position:relative;">
                 <router-link to="/enroll" el="btn-2ry">register now</router-link>
@@ -241,7 +241,7 @@ export default {
             {
                 label:'When can I start?',
                 expand: false,
-                content: 'Our next course starts April 12, 2020. Make sure you sign up before this date.'
+                content: 'Our next course starts September 20, 2020. Make sure you sign up before this date.'
             },
             {
                 label:"I don't have an IT background, can I do it?",

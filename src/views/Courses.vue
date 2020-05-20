@@ -22,7 +22,7 @@
                             </div>
                             <div el="list" style="text-align:left;--gap:8px;">
                                 <p el="bold" style="--color:var(--color-dark);">Classes Start On</p>
-                                <p el>April 12, 2020 @10am</p>
+                                <p el>September 20, 2020 @10am</p>
                             </div>
                         </div>
                         <div el="list-column">

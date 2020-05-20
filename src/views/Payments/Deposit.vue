@@ -21,7 +21,7 @@
 import CourseDeposit from '@/components/CourseDeposit.vue'
 
 export default {
-    name: 'dashboard',
+    name: 'deposit',
     components: {
         CourseDeposit
     },
