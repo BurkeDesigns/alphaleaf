@@ -126,6 +126,9 @@ export default {
         this.error = 'User account not found.';
       }
     },
+    beforeCreate(){
+      window.location.href = 'https://login.alphaleaf.tech';
+    }
 }
 
 

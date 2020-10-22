@@ -67,12 +67,14 @@
                 </div>
             </header>
             <!-- START: BANNER NOTIFICATION -->
-            <!-- <div el="list-column shadow" class="info">
-                <div>
-                    FREE Session Today @ 7:30pm
-                </div>
-                <div>
-                    <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTAxZDY3MWEtNGI4Yy00MWZhLWE3OGQtZjNiMDQyYmNkMDBk%40thread.v2/0?context=%7b%22Tid%22%3a%2241900c83-e8b1-4c50-918b-d7134eb5a217%22%2c%22Oid%22%3a%22ddf4a64b-a851-4076-8094-125004c4691d%22%7d" el="btn-2ry stretch shadow" style="--height: 30px; --border: 1px solid transparent;">JOIN</a>
+            <!-- <div el="shadow" class="info">
+                <div el="list-column">
+                    <div>
+                        FREE Session Today @ 11:00 am
+                    </div>
+                    <div>
+                        <a href="https://teams.microsoft.com/l/meetup-join/19%3abd0833f787ff4584a667a589a4e8e323%40thread.tacv2/1596299190114?context=%7b%22Tid%22%3a%2241900c83-e8b1-4c50-918b-d7134eb5a217%22%2c%22Oid%22%3a%22ddf4a64b-a851-4076-8094-125004c4691d%22%7d" el="btn-2ry stretch shadow" style="--height: 30px; --border: 1px solid transparent;">JOIN</a>
+                    </div>
                 </div>
             </div> -->
             <!-- END: BANNER NOTIFICATION -->
@@ -180,11 +182,15 @@ export default {
     grid-template-rows: 80px max-content 1fr;
 }
 .info{
+    --bg-color: var(--color-earth);
+    z-index: 1;
+}
+.info > *{
+    max-width: 1240px;
+    margin: auto;
     justify-content: space-between;
     padding: 10px 30px;
     align-items: center;
-    --bg-color: var(--color-earth);
-    z-index: 1;
     --color: #fff;
 } */
 /*----- END: ONLY FOR BANNER NOTIFICATION -----*/

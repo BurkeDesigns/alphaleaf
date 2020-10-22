@@ -7,12 +7,13 @@
                   <!-- FORM HERE -->
                   <h1 el="center-txt" style="--color:var(--color-secondary);" class="title">Let's Talk! Contact Alphaleaf</h1>
                   <div el="list-column-alt">
-                      <div el="list" style="--gap:5px">
+                      <!-- <div el="list" style="--gap:5px">
                           <h4 el style="--color:var(--color-65);">Call us</h4>
                           <div class="lg-bold">+1 (202) 790 3893</div>
-                      </div>
+                      </div> -->
                       <div el="list" style="--gap:5px">
-                          <h4 el style="--color:var(--color-65);">or send us an email</h4>
+                          <!-- <h4 el style="--color:var(--color-65);">or send us an email</h4> -->
+                          <h4 el style="--color:var(--color-65);">send us an email</h4>
                           <div class="lg-bold">info@alphaleaf.tech</div>
                       </div>
                       
@@ -70,7 +71,7 @@
                     <p el>Sun: 10am - 4pm</p>
                 </div>
                 <a href="http://maps.google.com/?q=12750 Fair Lakes Cir, Fairfax, VA 22033" target="_blank">
-                    <img src="../assets/img/maps.png" alt="location" el="stretch" class="map">
+                    <img src="../assets/img/maps.jpg" alt="location" el="stretch" class="map">
                 </a>
             </div>
             

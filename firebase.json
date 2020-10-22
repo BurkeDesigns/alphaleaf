@@ -13,10 +13,10 @@
   },
   "hosting": {
     "headers": [ {
-        "source": "**/*.@(js|css)",
+        "source": "**/*.@(js|css|jpg|jpeg|gif|png)",
         "headers": [ {
           "key": "Cache-Control",
-          "value": "max-age=604800"
+          "value": "max-age=31536000"
         }]
       }
     ],
@@ -26,6 +26,13 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [ 
+      {
+        "source": "/login",
+        "destination": "https://login.alphaleaf.tech",
+        "type": 302
+      } 
+  ],
     "rewrites": [
       {
         "source": "**",

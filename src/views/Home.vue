@@ -45,25 +45,48 @@
             </div>
         </div>
     </div>
-    <div el="section">
+    <div el="section" style="display: grid;grid-gap: 25px;">
+
+        <div el="list-column-alt" class="banner" style="grid-template-columns: unset;">
+            <div el="list" class="card-content">
+                <div>
+                    <!-- <div el="status-sucess">STARTS AUG 15</div> -->
+                    <div el="status-sucess">FREE Session</div>
+                </div>
+                <h3 el>Join our FREE Intro Session!</h3>
+                <!-- <p el>We offer a free intro session on August 15th from 11:00 am - 12:00 pm EDT. Join us and learn about Software Engineer in Test and find out if it's right for you. Be sure to join on the web with a computer or download the Microsoft Teams app to join on mobile.</p> -->
+                <p el>We offer a free intro session. Sign up and learn about Software Engineer in Test and find out if it's right for you. After you sign up, we'll notify you when our FREE session will be available for you to join online.</p>
+            </div>
+            <div class="card-content" style="position:relative;">
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=gwyQQbHoUEyRi9cTTrWiF5u9Wr1-B6JNnHDRt1FlZkZUNFdDMEdDSVg2SVZBTE1QMklPWEVNQkMwUiQlQCN0PWcu" el="btn-2ry" rel="noopener">register now</a>
+                <!-- <a href="" el="btn">join now</a> -->
+            </div>
+            
+        </div>
         
         <div el="list-column-alt" class="banner">
             <img src="https://alphaleaf.imgix.net/assets/img/session.png?auto=format&fit=min&w=500" alt="coding" class="w250 mobile-img-full">
             <div el="list" class="card-content">
-                <div>
-                    <div el="status-sucess">STARTS SEPTEMBER 20</div>
+                <!-- <div>
+                    <div el="status-sucess">STARTS JUNE 6</div>
                 </div>
-                <!-- <h3 el>Join our FREE Intro Session!</h3>
-                <p el>We offer a free intro session today at 2pm. Join us and learn about Software Engineer in Test and find out if it's right for you. Be sure to join on the web with a computer or download the Microsoft Teams app to join on mobile.</p> -->
+                <h3 el>Join our FREE Intro Session!</h3>
+                <p el>We offer a free intro session on June 6th at 12:00 pm EDT. Join us and learn about Software Engineer in Test and find out if it's right for you. Be sure to join on the web with a computer or download the Microsoft Teams app to join on mobile.</p> -->
+                <div>
+                    <div el="status-sucess">STARTS NOV 15</div>
+                </div>
                 <h3 el>Join our class before it's too late!</h3>
-                <p el>Classes start on September 20 at 10am. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
+                <p el>Classes start on November 15 at 10am. Join us and learn about Software Engineer in Test and find out if it's right for you.</p>
             </div>
             <div class="card-content" style="position:relative;">
                 <router-link to="/enroll" el="btn-2ry">register now</router-link>
-                <!-- <a href="#" el="btn-2ry">join now</a> -->
+                <!-- <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGYzNzFkYzgtZTIwNC00NTdlLTgyY2QtMzEzNjIwY2FiZmVl%40thread.v2/0?context=%7b%22Tid%22%3a%2241900c83-e8b1-4c50-918b-d7134eb5a217%22%2c%22Oid%22%3a%22729c552c-936d-489a-9f0f-5192c663d6b3%22%7d" el="btn-2ry">join now</a> -->
             </div>
             
         </div>
+
+
+
     </div>
    <!-- v-scroll="handleScroll" -->
     <div el="section">
@@ -146,7 +169,7 @@
                 <div el="list-column-alt" class="card-list">
                     <div el="list">
                             <h3 el="white">Cost</h3>
-                            <p el="white75">Affortable tuition at $6,000. No hidden fees.</p>
+                            <p el="white75">Affortable tuition at $7,000. No hidden fees.</p>
 
                     </div>
                     <div el="list">
@@ -236,12 +259,12 @@ export default {
             {
                 label:"What is the total cost?",
                 expand: false,
-                content: 'Our SET course costs $6,000. Unlike other programs, we do not charge a percentage of your salary when you get a job.'
+                content: 'Our SET course costs $7,000. Unlike other programs, we do not charge a percentage of your salary when you get a job.'
             },
             {
                 label:'When can I start?',
                 expand: false,
-                content: 'Our next course starts September 20, 2020. Make sure you sign up before this date.'
+                content: 'Our next course starts November 15, 2020. Make sure you sign up before this date.'
             },
             {
                 label:"I don't have an IT background, can I do it?",
@@ -380,7 +403,7 @@ export default {
     padding:30px;
     display: grid;
     align-items: center;
-    
+    grid-gap:16px;
 }
 .w250{
     width:250px;
